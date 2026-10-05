@@ -58,14 +58,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: clamp(0.8rem, 1.4vw, 1.3rem);
+    font-size: max(0.8rem, min(1.4vw, 1.3rem));
     font-weight: 1000;
 }
 
 .slider1 .name {
     height: 13vh;
     width: 80%;
-    font-size: clamp(2rem, 4vw, 3.8rem);
+    font-size: max(2rem, min(4vw, 3.8rem));
     position: absolute;
     top: 18vh;
     color: white;
@@ -74,7 +74,7 @@
 .slider1 .head {
     height: 13vh;
     width: 80%;
-    font-size: clamp(1.2rem, 2.5vw, 2.5rem);
+    font-size: max(1.2rem, min(2.5vw, 2.5rem));
     position: absolute;
     top: 30vh;
     color: white;
@@ -83,7 +83,7 @@
 .slider1 .head1 {
     height: 13vh;
     width: 80%;
-    font-size: clamp(1.2rem, 2.5vw, 2.5rem);
+    font-size: max(1.2rem, min(2.5vw, 2.5rem));
     color: aliceblue;
     top: 37vh;
     position: absolute;
@@ -92,7 +92,7 @@
 .slider1 .head2 {
     height: 13vh;
     width: 80%;
-    font-size: clamp(1.2rem, 2.5vw, 2.5rem);
+    font-size: max(1.2rem, min(2.5vw, 2.5rem));
     color: aliceblue;
     top: 44vh;
     position: absolute;
@@ -101,7 +101,7 @@
 .slider1 .para {
     height: 13vh;
     width: 90%;
-    font-size: clamp(0.8rem, 1.3vw, 1.3rem);
+    font-size: max(0.8rem, min(1.3vw, 1.3rem));
     color: aliceblue;
     top: 60vh;
     position: absolute;
@@ -111,9 +111,9 @@
     position: absolute;
     top: 67vh;
     border: 2px solid white;
-    padding: clamp(6px, 1vh, 12px) clamp(8px, 1.2vw, 16px);
+    padding: max(6px, min(1vh, 12px)) max(8px, min(1.2vw, 16px));
     border-radius: 15px;
-    font-size: clamp(0.6rem, 0.9vw, 0.85rem);
+    font-size: max(0.6rem, min(0.9vw, 0.85rem));
     margin-left: 1.5vw;
     color: rgb(0, 0, 0);
     background-color:#ffffff
@@ -145,14 +145,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: clamp(0.7rem, 1.2vw, 1.2rem);
+    font-size: max(0.7rem, min(1.2vw, 1.2rem));
     font-weight: 1000;
 }
 
 .slider2 .name {
     height: 13vh;
     width: 60%;
-    font-size: clamp(2rem, 4vw, 3.8rem);
+    font-size: max(2rem, min(4vw, 3.8rem));
     position: absolute;
     top: 18vh;
     color: black;
@@ -162,7 +162,7 @@
 .slider2 .head {
     height: 13vh;
     width: 60%;
-    font-size: clamp(1.2rem, 2.5vw, 2.5rem);
+    font-size: max(1.2rem, min(2.5vw, 2.5rem));
     position: absolute;
     top: 30vh;
     left: 21.3vw;
@@ -172,7 +172,7 @@
 .slider2 .head1 {
     height: 13vh;
     width: 60%;
-    font-size: clamp(1.2rem, 2.5vw, 2.5rem);
+    font-size: max(1.2rem, min(2.5vw, 2.5rem));
     color: rgb(0, 0, 0);
     top: 37vh;
     position: absolute;
@@ -182,7 +182,7 @@
 .slider2 .head2 {
     height: 13vh;
     width: 60%;
-    font-size: clamp(1.2rem, 2.5vw, 2.5rem);
+    font-size: max(1.2rem, min(2.5vw, 2.5rem));
     color: rgb(0, 0, 0);
     top: 44vh;
     position: absolute;
@@ -192,7 +192,7 @@
 .slider2 .head3 {
     height: 13vh;
     width: 60%;
-    font-size: clamp(1.2rem, 2.5vw, 2.5rem);
+    font-size: max(1.2rem, min(2.5vw, 2.5rem));
     color: rgb(0, 0, 0);
     top: 51vh;
     position: absolute;
@@ -202,7 +202,7 @@
 .slider2 .para {
     height: 13vh;
     width: 60%;
-    font-size: clamp(0.8rem, 1.3vw, 1.3rem);
+    font-size: max(0.8rem, min(1.3vw, 1.3rem));
     color: rgb(0, 0, 0);
     top: 60vh;
     position: absolute;
@@ -213,9 +213,9 @@
     position: absolute;
     top: 67vh;
     border: 2px solid rgb(0, 0, 0);
-    padding: clamp(6px, 1vh, 12px) clamp(8px, 1.6vw, 16px);
+    padding: max(6px, min(1vh, 12px)) max(8px, min(1.6vw, 16px));
     border-radius: 15px;
-    font-size: clamp(0.6rem, 0.9vw, 0.85rem);
+    font-size: max(0.6rem, min(0.9vw, 0.85rem));
     margin-left: 1.5vw;
     left: 21vw;
     color: rgb(255, 255, 255);
@@ -278,8 +278,8 @@
 }
 
 .title-box {
-    width: clamp(180px, 20vw, 320px);
-    height: clamp(45px, 7vh, 75px);
+    width: max(180px, min(20vw, 320px));
+    height: max(45px, min(7vh, 75px));
     background: linear-gradient(to right, #222, #000);
     border-radius: 0px 40px 40px 0px;
     display: flex;
@@ -289,15 +289,15 @@
 
 .title-box h1 {
     color: white;
-    font-size: clamp(1.2rem, 2.2vw, 2.2rem);
+    font-size: max(1.2rem, min(2.2vw, 2.2rem));
 }
 
 .menu-bar {
     display: flex;
-    gap: clamp(10px, 1.8vw, 28px);
-    font-size: clamp(0.75rem, 1.5vw, 1.5rem);
+    gap: max(10px, min(1.8vw, 28px));
+    font-size: max(0.75rem, min(1.5vw, 1.5rem));
     font-weight: 700;
-    margin-left: clamp(80px, 13vw, 220px);
+    margin-left: max(80px, min(13vw, 220px));
 }
 
 .menu-bar label {
@@ -332,13 +332,13 @@
 }
 
 .about-left h2 {
-    font-size: clamp(1.5rem, 3vw, 2.8rem);
+    font-size: max(1.5rem, min(3vw, 2.8rem));
     margin-bottom: 2.5vh;
 }
 
 .about-left p {
-    font-size: clamp(0.9rem, 1.6vw, 1.6rem);
-    line-height: clamp(1.8rem, 3.5vh, 3rem);
+    font-size: max(0.9rem, min(1.6vw, 1.6rem));
+    line-height: max(1.8rem, min(3.5vh, 3rem));
     margin-bottom: 2vh;
 }
 
@@ -346,7 +346,7 @@
 
 .buttons {
     display: flex;
-    gap: clamp(12px, 1.8vw, 28px);
+    gap: max(12px, min(1.8vw, 28px));
     margin-top: 3vh;
 }
 
@@ -354,18 +354,18 @@
     background: black;
     color: white;
     border: none;
-    padding: clamp(8px, 1vh, 14px) clamp(16px, 2vw, 34px);
+    padding: max(8px, min(1vh, 14px)) max(16px, min(2vw, 34px));
     border-radius: 30px;
-    font-size: clamp(0.7rem, 1vw, 1rem);
+    font-size: max(0.7rem, min(1vw, 1rem));
     cursor: pointer;
 }
 
 .hire-btn {
     background: transparent;
     border: 3px solid black;
-    padding: clamp(10px, 1.2vh, 18px) clamp(18px, 2.3vw, 38px);
+    padding: max(10px, min(1.2vh, 18px)) max(18px, min(2.3vw, 38px));
     border-radius: 30px;
-    font-size: clamp(0.7rem, 1vw, 1rem);
+    font-size: max(0.7rem, min(1vw, 1rem));
     cursor: pointer;
 }
 
@@ -375,23 +375,23 @@
     margin-top: 3vh;
     border: 4px solid black;
     border-radius: 35px;
-    padding: clamp(12px, 2vh, 24px);
+    padding: max(12px, min(2vh, 24px));
 }
 
 .skills-box h3 {
-    font-size: clamp(0.85rem, 1.3vw, 1.3rem);
+    font-size: max(0.85rem, min(1.3vw, 1.3rem));
     margin-bottom: 2vh;
 }
 
 .icons {
     display: flex;
-    gap: clamp(10px, 1.4vw, 22px);
+    gap: max(10px, min(1.4vw, 22px));
     flex-wrap: wrap;
 }
 
 .icons img {
-    width: clamp(30px, 3.5vw, 55px);
-    height: clamp(30px, 3.5vw, 55px);
+    width: max(30px, min(3.5vw, 55px));
+    height: max(30px, min(3.5vw, 55px));
 }
 
 /* OPACITY TRANSITIONS */
@@ -448,8 +448,8 @@
 }
 
 .project-title {
-    width: clamp(180px, 20vw, 320px);
-    height: clamp(50px, 8vh, 80px);
+    width: max(180px, min(20vw, 320px));
+    height: max(50px, min(8vh, 80px));
     background: white;
     border-radius: 0px 45px 45px 0px;
     display: flex;
@@ -458,18 +458,18 @@
 }
 
 .project-title h1 {
-    font-size: clamp(1.2rem, 2.2vw, 2.2rem);
+    font-size: max(1.2rem, min(2.2vw, 2.2rem));
 }
 
 .project-nav {
     display: flex;
-    gap: clamp(12px, 2.5vw, 38px);
-    margin-left: clamp(60px, 12vw, 200px);
+    gap: max(12px, min(2.5vw, 38px));
+    margin-left: max(60px, min(12vw, 200px));
 }
 
 .project-nav label {
     color: white;
-    font-size: clamp(0.75rem, 1.3vw, 1.3rem);
+    font-size: max(0.75rem, min(1.3vw, 1.3rem));
     font-weight: 700;
     cursor: pointer;
 }
@@ -477,15 +477,15 @@
 /* CARDS */
 
 .project-cards {
-    margin-top: clamp(50px, 12vh, 140px);
+    margin-top: max(50px, min(12vh, 140px));
     display: flex;
     justify-content: center;
-    gap: clamp(15px, 2.5vw, 40px);
+    gap: max(15px, min(2.5vw, 40px));
 }
 
 .card {
-    width: clamp(180px, 19vw, 300px);
-    height: clamp(220px, 35vh, 360px);
+    width: max(180px, min(19vw, 300px));
+    height: max(220px, min(35vh, 360px));
     background: white;
     border-radius: 15px;
     overflow: hidden;
@@ -495,7 +495,7 @@
 .card-top {
     height: 78%;
     background: #cfcfcf;
-    padding: clamp(10px, 2vh, 22px);
+    padding: max(10px, min(2vh, 22px));
 }
 
 .dark-card .card-top {
@@ -504,45 +504,45 @@
 }
 
 .card h2 {
-    font-size: clamp(1rem, 1.7vw, 1.7rem);
-    margin-bottom: clamp(8px, 1.5vh, 18px);
+    font-size: max(1rem, min(1.7vw, 1.7rem));
+    margin-bottom: max(8px, min(1.5vh, 18px));
 }
 
 .card p {
-    font-size: clamp(0.75rem, 1.1vw, 1.1rem);
-    line-height: clamp(1.3rem, 2.5vh, 2rem);
+    font-size: max(0.75rem, min(1.1vw, 1.1rem));
+    line-height: max(1.3rem, min(2.5vh, 2rem));
 }
 
 .tags {
-    margin-top: clamp(10px, 2vh, 24px);
+    margin-top: max(10px, min(2vh, 24px));
     display: flex;
-    gap: clamp(5px, 0.8vw, 12px);
+    gap: max(5px, min(0.8vw, 12px));
     flex-wrap: wrap;
 }
 
 .tags span {
     background: #b0b0b0;
-    padding: clamp(5px, 0.8vh, 12px) clamp(8px, 1vw, 18px);
+    padding: max(5px, min(0.8vh, 12px)) max(8px, min(1vw, 18px));
     border-radius: 20px;
-    font-size: clamp(0.6rem, 0.9vw, 0.9rem);
+    font-size: max(0.6rem, min(0.9vw, 0.9rem));
 }
 
 .card-bottom {
     height: 22%;
-    padding: clamp(6px, 1vh, 12px);
+    padding: max(6px, min(1vh, 12px));
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .card-bottom h3 {
-    font-size: clamp(1rem, 1.5vw, 1.6rem);
+    font-size: max(1rem, min(1.5vw, 1.6rem));
 }
 
 .card-bottom .open-btn {
-    height: clamp(28px, 5vh, 45px);
-    width: clamp(34px, 3.5vw, 55px);
-    font-size: clamp(1.2rem, 2vw, 2rem);
+    height: max(28px, min(5vh, 45px));
+    width: max(34px, min(3.5vw, 55px));
+    font-size: max(1.2rem, min(2vw, 2rem));
     display: flex;
     justify-content: center;
     align-items: center;
@@ -568,7 +568,7 @@
 
 .mark {
     color: white;
-    font-size: clamp(1.2rem, 2vw, 2rem);
+    font-size: max(1.2rem, min(2vw, 2rem));
 }
 
 #frontend-project:checked ~ .container .frontend-slider,
@@ -583,8 +583,8 @@
 
 .projects-details {
     width: 90%;
-    height: clamp(320px, 55vh, 540px);
-    margin: clamp(40px, 8vh, 100px) auto;
+    height: max(320px, min(55vh, 540px));
+    margin: max(40px, min(8vh, 100px)) auto;
     position: relative;
     display: flex;
     align-items: center;
@@ -593,7 +593,7 @@
 /* PROJECT WRAPPER */
 .project-wrapper {
     position: absolute;
-    width: clamp(100px, 11vw, 180px);
+    width: max(100px, min(11vw, 180px));
     height: 95%;
     transition: 1s;
 }
@@ -613,10 +613,10 @@
 }
 
 .project-wrapper:nth-child(1) { left: 0; }
-.project-wrapper:nth-child(2) { left: calc(clamp(100px, 11vw, 180px) + 1.5%); }
-.project-wrapper:nth-child(3) { left: calc((clamp(100px, 11vw, 180px) + 1.5%) * 2); }
-.project-wrapper:nth-child(4) { left: calc((clamp(100px, 11vw, 180px) + 1.5%) * 3); }
-.project-wrapper:nth-child(5) { left: calc((clamp(100px, 11vw, 180px) + 1.5%) * 4); }
+.project-wrapper:nth-child(2) { left: calc(max(100px, min(11vw, 180px)) + 1.5%); }
+.project-wrapper:nth-child(3) { left: calc((max(100px, min(11vw, 180px)) + 1.5%) * 2); }
+.project-wrapper:nth-child(4) { left: calc((max(100px, min(11vw, 180px)) + 1.5%) * 3); }
+.project-wrapper:nth-child(5) { left: calc((max(100px, min(11vw, 180px)) + 1.5%) * 4); }
 
 /* P1 EXPANDED */
 #p1:checked ~ .container .project-wrapper:nth-child(1) { width: 45%; }
@@ -639,6 +639,49 @@
 #p3:checked ~ .container .project-wrapper:nth-child(4) { left: 65%; }
 #p3:checked ~ .container .project-wrapper:nth-child(5) { left: 76%; }
 
+
+/* hidden project sliders must not catch the mouse / wheel */
+.frontend-slider,
+.backend-slider,
+.database-slider {
+    pointer-events: none;
+}
+
+/* only the slider that is open can be used */
+#frontend-project:checked ~ .container .frontend-slider,
+#backend-project:checked  ~ .container .backend-slider,
+#database-project:checked ~ .container .database-slider {
+    pointer-events: auto;
+}
+
+/* ===== hidden project sliders must not receive any click / scroll ===== */
+.frontend-slider,
+.backend-slider,
+.database-slider,
+.frontend-slider .iconss,
+.frontend-slider .iconss a,
+.backend-slider  .iconss,
+.backend-slider  .iconss a,
+.database-slider .iconss,
+.database-slider .iconss a {
+    pointer-events: none !important;
+}
+
+/* ===== only the slider that is open can be used ===== */
+#frontend-project:checked ~ .container .frontend-slider,
+#frontend-project:checked ~ .container .frontend-slider .iconss,
+#frontend-project:checked ~ .container .frontend-slider .iconss a,
+
+#backend-project:checked  ~ .container .backend-slider,
+#backend-project:checked  ~ .container .backend-slider  .iconss,
+#backend-project:checked  ~ .container .backend-slider  .iconss a,
+
+#database-project:checked ~ .container .database-slider,
+#database-project:checked ~ .container .database-slider .iconss,
+#database-project:checked ~ .container .database-slider .iconss a {
+    pointer-events: auto !important;
+}
+
 /* BEFORE / AFTER CARD */
 
 .before-card {
@@ -656,23 +699,23 @@
 }
 
 .before-card .heading {
-    font-size: clamp(1rem, 2.2vw, 2.2rem);
+    font-size: max(1rem, min(2.2vw, 2.2rem));
     font-weight: bold;
-    padding: clamp(5px, 1vh, 12px);
+    padding: max(5px, min(1vh, 12px));
 }
 
 .before-card .number {
     position: absolute;
-    font-size: clamp(4rem, 9vw, 10rem);
+    font-size: max(4rem, min(9vw, 10rem));
     right: 0px;
     bottom: 0;
 }
 
 .close-btn {
     position: absolute;
-    top: clamp(8px, 1.5vh, 18px);
-    right: clamp(8px, 1vw, 18px);
-    font-size: clamp(1rem, 1.5vw, 1.5rem);
+    top: max(8px, min(1.5vh, 18px));
+    right: max(8px, min(1vw, 18px));
+    font-size: max(1rem, min(1.5vw, 1.5rem));
     font-weight: bold;
     cursor: pointer;
     color: #000;
@@ -687,7 +730,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: clamp(15px, 2.5vw, 35px);
+    padding: max(15px, min(2.5vw, 35px));
     background: #fff;
     border-radius: 20px;
     opacity: 0;
@@ -708,19 +751,19 @@
 }
 
 .project-img {
-    width: clamp(70px, 9vw, 140px);
+    width: max(70px, min(9vw, 140px));
     height: 65%;
     object-fit: contain;
     position: absolute;
-    top: clamp(5px, 1vh, 14px);
+    top: max(5px, min(1vh, 14px));
     left: 0px;
 }
 
 .project-no {
     position: absolute;
-    left: clamp(5px, 1vw, 18px);
+    left: max(5px, min(1vw, 18px));
     bottom: 0;
-    font-size: clamp(4rem, 9vw, 9.5rem);
+    font-size: max(4rem, min(9vw, 9.5rem));
     font-weight: 900;
     line-height: 1;
 }
@@ -729,23 +772,29 @@
 
 .right-side {
     width: 60%;
+    height:80%;
     position: relative;
+    overflow-y:auto;
+    scrollbar-width:thin;
+    /* border:2px solid; */
 }
 
+
+
 .right-side h1 {
-    font-size: clamp(0.95rem, 1.6vw, 1.7rem);
+    font-size: max(0.95rem, min(1.6vw, 1.7rem));
     font-weight: bold;
-    margin-bottom: clamp(6px, 1vh, 14px);
+    margin-bottom: max(6px, min(1vh, 14px));
 }
 
 .right-side p {
-    font-size: clamp(0.7rem, 1vw, 1rem);
-    margin-bottom: clamp(8px, 1.5vh, 20px);
+    font-size: max(0.7rem, min(1vw, 1rem));
+    margin-bottom: max(8px, min(1.5vh, 20px));
 }
 
 .right-side h3 {
-    margin: clamp(10px, 2vh, 28px) 0;
-    font-size: clamp(0.7rem, 0.95vw, 1rem);
+    margin: max(10px, min(2vh, 28px)) 0;
+    font-size: max(0.7rem, min(0.95vw, 1rem));
 }
 
 /* SKILLS BARS */
@@ -753,18 +802,18 @@
 .skill {
     display: flex;
     align-items: center;
-    gap: clamp(8px, 1.5vw, 22px);
-    margin-bottom: clamp(8px, 1.5vh, 20px);
+    gap: max(8px, min(1.5vw, 22px));
+    margin-bottom: max(8px, min(1.5vh, 20px));
 }
 
 .skill span {
-    width: clamp(60px, 8vw, 130px);
-    font-size: clamp(0.65rem, 0.9vw, 0.9rem);
+    width: max(60px, min(8vw, 130px));
+    font-size: max(0.65rem, min(0.9vw, 0.9rem));
 }
 
 .bar {
     flex: 1;
-    height: clamp(6px, 1.2vh, 14px);
+    height: max(6px, min(1.2vh, 14px));
     background: #ececec;
     border-radius: 30px;
     overflow: hidden;
@@ -888,17 +937,17 @@
 .testimonial-nav {
     display: flex;
     justify-content: center;
-    gap: clamp(15px, 3.5vw, 55px);
+    gap: max(15px, min(3.5vw, 55px));
     margin-top: 7vh;
-    font-size: clamp(0.8rem, 1.5vw, 1.5rem);
+    font-size: max(0.8rem, min(1.5vw, 1.5rem));
     font-weight: bold;
 }
 
 .slider5 h1 {
     text-align: center;
-    margin-top: clamp(80px, 22vh, 220px);
-    font-size: clamp(2rem, 5vw, 4rem);
-    letter-spacing: clamp(3px, 1vw, 12px);
+    margin-top: max(80px, min(22vh, 220px));
+    font-size: max(2rem, min(5vw, 4rem));
+    letter-spacing: max(3px, min(1vw, 12px));
 }
 
 .circle {
@@ -908,22 +957,22 @@
 }
 
 .outer {
-    width: clamp(350px, 55vw, 820px);
-    height: clamp(350px, 55vw, 820px);
-    left: clamp(100px, 18vw, 200px);
-    top: clamp(100px, 20vh, 200px);
+    width: max(350px, min(55vw, 820px));
+    height: max(350px, min(55vw, 820px));
+    left: max(100px, min(18vw, 200px));
+    top: max(100px, min(20vh, 200px));
 }
 
 .inner {
-    width: clamp(230px, 38vw, 570px);
-    height: clamp(230px, 38vw, 570px);
-    left: clamp(270px, 22vw, 350px);
-    top: clamp(170px, 32vh, 320px);
+    width: max(230px, min(38vw, 570px));
+    height: max(230px, min(38vw, 570px));
+    left: max(270px, min(22vw, 350px));
+    top: max(170px, min(32vh, 320px));
 }
 
 .avatar {
-    width: clamp(40px, 5vw, 75px);
-    height: clamp(40px, 5vw, 75px);
+    width: max(40px, min(5vw, 75px));
+    height: max(40px, min(5vw, 75px));
     border-radius: 50%;
     overflow: hidden;
     position: absolute;
@@ -936,17 +985,17 @@
     object-fit: cover;
 }
 
-.a1 { top: clamp(120px, 22vh, 230px); left: clamp(620px, 34vw, 740px); }
-.a2 { top: clamp(300px, 35vh, 380px); left: clamp(750px, 52vw, 820px);}
-.a3 { top: clamp(320px, 52vh, 580px); left: clamp(750px, 55vw, 870px); }
-.a4 { top: clamp(290px, 40vh, 340px); left: clamp(400px, 20vw, 320px); }
-.a5 { top: clamp(280px, 62vh, 380px); left: clamp(190px, 23vw, 330px);  }
+.a1 { top: max(120px, min(22vh, 230px)); left: max(620px, min(34vw, 740px)); }
+.a2 { top: max(300px, min(35vh, 380px)); left: max(750px, min(52vw, 820px));}
+.a3 { top: max(320px, min(52vh, 580px)); left: max(750px, min(55vw, 870px)); }
+.a4 { top: max(290px, min(40vh, 340px)); left: max(400px, min(20vw, 320px)); }
+.a5 { top: max(280px, min(62vh, 380px)); left: max(190px, min(23vw, 330px));  }
 
 /* TESTIMONIAL CARDS TRACK */
 
 .cards-track {
     position: absolute;
-    bottom: clamp(30px, 7vh, 90px);
+    bottom: max(30px, min(7vh, 90px));
     left: 0;
     width: max-content;
     display: flex;
@@ -955,16 +1004,16 @@
 .testimonial-cards {
     display: flex;
     width: max-content;
-    gap: clamp(10px, 3.5vw, 15px);
+    gap: max(10px, min(3.5vw, 15px));
 }
 
 .t-card {
-    width: clamp(160px, 15vw, 230px);
-    height: clamp(200px, 30vh, 300px);
+    width: max(160px, min(15vw, 230px));
+    height: max(200px, min(30vh, 300px));
     background: #f5f5f5;
     border: 2px solid #222;
     border-radius: 15px;
-    padding: clamp(12px, 2vh, 22px);
+    padding: max(12px, min(2vh, 22px));
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -972,38 +1021,38 @@
 }
 
 .t-card h4 {
-    font-size: clamp(0.75rem, 1.1vw, 1.1rem);
+    font-size: max(0.75rem, min(1.1vw, 1.1rem));
     font-weight: 700;
-    margin-bottom: clamp(8px, 1.5vh, 18px);
+    margin-bottom: max(8px, min(1.5vh, 18px));
 }
 
 .t-card p {
-    font-size: clamp(0.65rem, 0.95vw, 0.95rem);
-    line-height: clamp(1.2rem, 2.2vh, 1.7rem);
+    font-size: max(0.65rem, min(0.95vw, 0.95rem));
+    line-height: max(1.2rem, min(2.2vh, 1.7rem));
     color: #333;
 }
 
 .card-user {
     display: flex;
     align-items: center;
-    gap: clamp(6px, 1vw, 14px);
+    gap: max(6px, min(1vw, 14px));
 }
 
 .card-user img {
-    width: clamp(30px, 3.5vw, 50px);
-    height: clamp(30px, 3.5vw, 50px);
+    width: max(30px, min(3.5vw, 50px));
+    height: max(30px, min(3.5vw, 50px));
     border-radius: 50%;
     object-fit: cover;
 }
 
 .card-user h5 {
-    font-size: clamp(0.7rem, 1vw, 1rem);
+    font-size: max(0.7rem, min(1vw, 1rem));
     font-weight: 500;
     margin-bottom: 2px;
 }
 
 .card-user span {
-    font-size: clamp(0.65rem, 0.9vw, 0.9rem);
+    font-size: max(0.65rem, min(0.9vw, 0.9rem));
     color: #555;
 }
 
@@ -1035,34 +1084,34 @@
     position: absolute;
     left: -500px;
     top: 0;
-    padding: clamp(20px, 4vw, 60px);
+    padding: max(20px, min(4vw, 60px));
     transition: 1.5s;
 }
 
 .contact-left h1 {
-    font-size: clamp(1.1rem, 2.4vw, 2.8rem);
-    letter-spacing: clamp(3px, 0.6vw, 10px);
-    margin-bottom: clamp(20px, 5vh, 60px);
+    font-size: max(1.1rem, min(2.4vw, 2.8rem));
+    letter-spacing: max(3px, min(0.6vw, 10px));
+    margin-bottom: max(20px, min(5vh, 60px));
 }
 
 .contact-card {
     border: 3px solid black;
     border-radius: 40px;
-    padding: clamp(15px, 2.5vw, 35px);
+    padding: max(15px, min(2.5vw, 35px));
 }
 
 .contact-card img {
     width: 100%;
-    height: clamp(150px, 25vh, 290px);
+    height: max(150px, min(25vh, 290px));
     object-fit: contain;
 }
 
 .contact-item {
     background: #e8e8e8;
-    padding: clamp(8px, 1.2vh, 14px);
-    margin-top: clamp(6px, 1vh, 12px);
+    padding: max(8px, min(1.2vh, 14px));
+    margin-top: max(6px, min(1vh, 12px));
     border-radius: 12px;
-    font-size: clamp(0.55rem, 1vw, 1.3rem);
+    font-size: max(0.55rem, min(1vw, 1.3rem));
 }
 
 .contact-item a {
@@ -1082,17 +1131,17 @@
     position: absolute;
     right: -900px;
     top: 0;
-    padding: clamp(30px, 5vw, 70px);
+    padding: max(30px, min(5vw, 70px));
     transition: 1.5s;
 }
 
 .contact-nav {
     display: flex;
     justify-content: flex-end;
-    gap: clamp(15px, 3vw, 48px);
-    font-size: clamp(0.75rem, 1.3vw, 1.3rem);
+    gap: max(15px, min(3vw, 48px));
+    font-size: max(0.75rem, min(1.3vw, 1.3rem));
     font-weight: bold;
-    margin-bottom: clamp(20px, 4vh, 50px);
+    margin-bottom: max(20px, min(4vh, 50px));
 }
 
 .contact-nav label {
@@ -1100,14 +1149,14 @@
 }
 
 .contact-right h2 {
-    font-size: clamp(1rem, 1.7vw, 1.7rem);
-    margin-bottom: clamp(10px, 2vh, 24px);
+    font-size: max(1rem, min(1.7vw, 1.7rem));
+    margin-bottom: max(10px, min(2vh, 24px));
 }
 
 .contact-right form {
     display: flex;
     flex-direction: column;
-    gap: clamp(12px, 2.5vh, 30px);
+    gap: max(12px, min(2.5vh, 30px));
 }
 
 .contact-right input,
@@ -1115,23 +1164,23 @@
     background: black;
     border: 2px solid #fff;
     color: white;
-    padding: clamp(10px, 1.5vh, 18px);
-    font-size: clamp(0.9rem, 1.5vw, 1.5rem);
+    padding: max(10px, min(1.5vh, 18px));
+    font-size: max(0.9rem, min(1.5vw, 1.5rem));
     border-radius: 20px;
 }
 
 .contact-right textarea {
-    height: clamp(120px, 25vh, 280px);
+    height: max(120px, min(25vh, 280px));
     resize: none;
 }
 
 .contact-right button {
     background: white;
     color: black;
-    padding: clamp(12px, 2vh, 24px);
+    padding: max(12px, min(2vh, 24px));
     border: none;
     border-radius: 20px;
-    font-size: clamp(0.9rem, 1.4vw, 1.4rem);
+    font-size: max(0.9rem, min(1.4vw, 1.4rem));
     font-weight: bold;
     cursor: pointer;
     width: 100%;
@@ -1165,2000 +1214,1478 @@
 .btn   { color: aliceblue; }
 
 
-@media (max-width: 992px) {
 
-    .container {
-        overflow-x: hidden;
-    }
-
-    .left,
-    .right {
-        width: 4vw;
-    }
-
-    /* ===== SLIDER 1 ===== */
-
-    .slider1 {
-        width: 35vw;
-        right: 4vw;
-    }
-
-    .slider1 .navbar {
-        height: 10vh;
-        width: 100%;
-    }
-
-    .slider1 .navbar .menu {
-        width: 50%;
-        font-size: clamp(0.55rem, 1.2vw, 1rem);
-    }
-
-    .slider1 .name {
-        font-size: clamp(1.4rem, 3.5vw, 2.8rem);
-        top: 16vh;
-        width: 90%;
-    }
-
-    .slider1 .head {
-        font-size: clamp(0.85rem, 2vw, 1.8rem);
-        top: 27vh;
-        width: 90%;
-    }
-
-    .slider1 .head1 {
-        font-size: clamp(0.85rem, 2vw, 1.8rem);
-        top: 34vh;
-        width: 90%;
-    }
-
-    .slider1 .head2 {
-        font-size: clamp(0.85rem, 2vw, 1.8rem);
-        top: 41vh;
-        width: 90%;
-    }
-
-    .slider1 .para {
-        font-size: clamp(0.6rem, 1.1vw, 1rem);
-        top: 52vh;
-        width: 95%;
-    }
-
-    .slider1 .btn {
-        top: 60vh;
-        font-size: clamp(0.5rem, 0.9vw, 0.8rem);
-        padding: clamp(5px, 0.8vh, 10px) clamp(6px, 1vw, 14px);
-        margin-left: 1vw;
-    }
-
-    /* ===== SLIDER 2 ===== */
-
-    .slider2 {
-        width: 38vw;
-        right: 39vw;
-    }
-
-    .slider2 .navbar {
-        height: 10vh;
-        width: 100%;
-    }
-
-    .slider2 .navbar .menu {
-        width: 33%;
-        font-size: clamp(0.5rem, 1.1vw, 1rem);
-    }
-
-    .slider2 .name {
-        font-size: clamp(1.4rem, 3.5vw, 2.8rem);
-        top: 16vh;
-        left: 24vw;
-        width: 55%;
-    }
-
-    .slider2 .head {
-        font-size: clamp(0.85rem, 2vw, 1.8rem);
-        top: 27vh;
-        left: 24vw;
-        width: 55%;
-    }
-
-    .slider2 .head1 {
-        font-size: clamp(0.85rem, 2vw, 1.8rem);
-        top: 34vh;
-        left: 24vw;
-        width: 55%;
-    }
-
-    .slider2 .head2 {
-        font-size: clamp(0.85rem, 2vw, 1.8rem);
-        top: 41vh;
-        left: 24vw;
-        width: 55%;
-    }
-
-    .slider2 .head3 {
-        font-size: clamp(0.85rem, 2vw, 1.8rem);
-        top: 48vh;
-        left: 24vw;
-        width: 55%;
-    }
-
-    .slider2 .para {
-        font-size: clamp(0.6rem, 1.1vw, 1rem);
-        top: 55vh;
-        left: 25vw;
-        width: 55%;
-    }
-
-    .slider2 .btn {
-        top: 62vh;
-        left: 24.5vw;
-        font-size: clamp(0.5rem, 0.9vw, 0.8rem);
-        padding: clamp(5px, 0.8vh, 10px) clamp(6px, 1vw, 14px);
-    }
-
-    /* ===== HOME STATE ===== */
-
-    #home:checked ~ .container .slider1 {
-        right: 4vw;
-    }
-
-    #home:checked ~ .container .slider2 {
-        right: 39vw;
-    }
-
-    #home:checked ~ .container .slider3 {
-        right: 77vw;
-    }
-
-    /* ===== ABOUT STATE ===== */
-
-    #about:checked ~ .container .slider1 {
-        right: -60vw;
-    }
-
-    #about:checked ~ .container .slider2 {
-        right: -10vw;
-    }
-
-    #about:checked ~ .container .slider3 {
-        right: 4vw;
-    }
-
-    /* ===== SLIDER 3 ===== */
-
-    .slider3 {
-        width: 92vw;
-        right: 77vw;
-    }
-
-    .slider3 .profile {
-        width: clamp(80px, 12vw, 160px);
-        height: clamp(80px, 14vh, 160px);
-        right: 2vw;
-        top: 38%;
-    }
-
-    .topbar {
-        margin-top: 3vh;
-        flex-wrap: wrap;
-        gap: 1vh;
-    }
-
-    .title-box {
-        width: clamp(140px, 22vw, 260px);
-        height: clamp(38px, 6vh, 60px);
-    }
-
-    .title-box h1 {
-        font-size: clamp(1rem, 2vw, 1.8rem);
-    }
-
-    .menu-bar {
-        margin-left: clamp(20px, 4vw, 80px);
-        gap: clamp(8px, 1.4vw, 20px);
-        font-size: clamp(0.6rem, 1.2vw, 1.1rem);
-        flex-wrap: wrap;
-    }
-
-    .about-container {
-        margin-top: 3vh;
-        flex-direction: row;
-        align-items: flex-start;
-    }
-
-    .about-left {
-        width: 65%;
-        margin-left: 1.5vw;
-    }
-
-    .about-left h2 {
-        font-size: clamp(1.2rem, 2.5vw, 2.2rem);
-        margin-bottom: 1.5vh;
-    }
-
-    .about-left p {
-        font-size: clamp(0.72rem, 1.3vw, 1.2rem);
-        line-height: clamp(1.3rem, 2.8vh, 2.2rem);
-        margin-bottom: 1.5vh;
-    }
-
-    .buttons {
-        gap: clamp(8px, 1.5vw, 20px);
-        margin-top: 2vh;
-        flex-wrap: wrap;
-    }
-
-    .cv-btn {
-        padding: clamp(6px, 0.9vh, 12px) clamp(12px, 1.6vw, 26px);
-        font-size: clamp(0.6rem, 0.9vw, 0.9rem);
-    }
-
-    .hire-btn {
-        padding: clamp(7px, 1vh, 14px) clamp(12px, 1.8vw, 28px);
-        font-size: clamp(0.6rem, 0.9vw, 0.9rem);
-    }
-
-    .skills-box {
-        margin-top: 2vh;
-        padding: clamp(10px, 1.5vh, 18px);
-        border-radius: 25px;
-    }
-
-    .skills-box h3 {
-        font-size: clamp(0.7rem, 1.1vw, 1.1rem);
-        margin-bottom: 1.5vh;
-    }
-
-    .icons {
-        gap: clamp(8px, 1.2vw, 16px);
-    }
-
-    .icons img {
-        width: clamp(24px, 3vw, 44px);
-        height: clamp(24px, 3vw, 44px);
-    }
-
-    /* ===== SLIDER 4 — PROJECTS ===== */
-
-    .slider4 {
-        width: 92vw;
-        right: -92vw;
-    }
-
-    #project:checked ~ .container .slider4 {
-        right: 4vw;
-    }
-
-    #project:checked ~ .container .slider3 {
-        right: 96vw;
-    }
-
-    #home:checked ~ .container .slider4,
-    #about:checked ~ .container .slider4 {
-        right: -92vw;
-    }
-
-    .project-top {
-        padding-top: 5vh;
-        flex-wrap: wrap;
-        gap: 1.5vh;
-    }
-
-    .project-title {
-        width: clamp(140px, 22vw, 260px);
-        height: clamp(40px, 6.5vh, 65px);
-    }
-
-    .project-title h1 {
-        font-size: clamp(1rem, 2vw, 1.8rem);
-    }
-
-    .project-nav {
-        margin-left: clamp(20px, 5vw, 100px);
-        gap: clamp(8px, 2vw, 28px);
-        flex-wrap: wrap;
-    }
-
-    .project-nav label {
-        font-size: clamp(0.6rem, 1.1vw, 1.1rem);
-    }
-
-    .project-cards {
-        margin-top: clamp(30px, 8vh, 90px);
-        gap: clamp(10px, 2vw, 28px);
-        flex-wrap: nowrap;
-        justify-content: center;
-        padding: 0 2vw;
-    }
-
-    .card {
-        width: clamp(150px, 25vw, 270px);
-        height: clamp(200px, 38vh, 340px);
-        flex-shrink: 1;
-    }
-
-    .card-top {
-        padding: clamp(8px, 1.5vh, 18px);
-    }
-
-    .card h2 {
-        font-size: clamp(0.85rem, 1.5vw, 1.5rem);
-        margin-bottom: clamp(6px, 1vh, 14px);
-    }
-
-    .card p {
-        font-size: clamp(0.65rem, 1vw, 1rem);
-        line-height: clamp(1.1rem, 2vh, 1.7rem);
-    }
-
-    .tags {
-        margin-top: clamp(8px, 1.5vh, 18px);
-        gap: clamp(4px, 0.7vw, 10px);
-    }
-
-    .tags span {
-        padding: clamp(4px, 0.6vh, 9px) clamp(6px, 0.9vw, 14px);
-        font-size: clamp(0.55rem, 0.8vw, 0.85rem);
-    }
-
-    .card-bottom {
-        padding: clamp(5px, 0.8vh, 10px);
-    }
-
-    .card-bottom h3 {
-        font-size: clamp(0.85rem, 1.3vw, 1.4rem);
-    }
-
-    .card-bottom .open-btn {
-        font-size: clamp(1rem, 1.8vw, 1.8rem);
-    }
-
-    /* ===== FRONTEND / BACKEND / DATABASE SLIDERS ===== */
-
-    .frontend-slider,
-    .backend-slider,
-    .database-slider {
-        left: 4vw;
-        width: 92vw;
-    }
-
-    .mark {
-        font-size: clamp(1rem, 1.8vw, 1.8rem);
-    }
-
-    /* ===== PROJECTS DETAILS ===== */
-
-    .projects-details {
-        width: 96%;
-        height: clamp(280px, 52vh, 480px);
-        margin: clamp(20px, 5vh, 70px) auto;
-    }
-
-    .project-wrapper {
-        width: clamp(80px, 10vw, 150px);
-        height: 96%;
-    }
-
-    .project-wrapper:nth-child(1) { left: 0; }
-    .project-wrapper:nth-child(2) { left: calc(clamp(80px, 10vw, 150px) + 1%); }
-    .project-wrapper:nth-child(3) { left: calc((clamp(80px, 10vw, 150px) + 1%) * 2); }
-    .project-wrapper:nth-child(4) { left: calc((clamp(80px, 10vw, 150px) + 1%) * 3); }
-    .project-wrapper:nth-child(5) { left: calc((clamp(80px, 10vw, 150px) + 1%) * 4); }
-
-    #p1:checked ~ .container .project-wrapper:nth-child(1) { width: 46%; }
-    #p1:checked ~ .container .project-wrapper:nth-child(2) { left: 48%; }
-    #p1:checked ~ .container .project-wrapper:nth-child(3) { left: 58%; }
-    #p1:checked ~ .container .project-wrapper:nth-child(4) { left: 68%; }
-    #p1:checked ~ .container .project-wrapper:nth-child(5) { left: 79%; }
-
-    #p2:checked ~ .container .project-wrapper:nth-child(1) { width: 7%; }
-    #p2:checked ~ .container .project-wrapper:nth-child(2) { left: 8%; width: 46%; }
-    #p2:checked ~ .container .project-wrapper:nth-child(3) { left: 57%; }
-    #p2:checked ~ .container .project-wrapper:nth-child(4) { left: 68%; }
-    #p2:checked ~ .container .project-wrapper:nth-child(5) { left: 79%; }
-
-    #p3:checked ~ .container .project-wrapper:nth-child(1) { width: 7%; }
-    #p3:checked ~ .container .project-wrapper:nth-child(2) { width: 7%; left: 8%; }
-    #p3:checked ~ .container .project-wrapper:nth-child(3) { left: 16%; width: 46%; }
-    #p3:checked ~ .container .project-wrapper:nth-child(4) { left: 65%; }
-    #p3:checked ~ .container .project-wrapper:nth-child(5) { left: 76%; }
-
-    .before-card .heading {
-        font-size: clamp(0.75rem, 1.8vw, 1.6rem);
-        padding: clamp(4px, 0.8vh, 10px);
-    }
-
-    .before-card .number {
-        font-size: clamp(3rem, 7.5vw, 8rem);
-    }
-
-    .close-btn {
-        top: clamp(6px, 1vh, 14px);
-        right: clamp(6px, 0.8vw, 14px);
-        font-size: clamp(0.85rem, 1.3vw, 1.3rem);
-    }
-
-    .after-card {
-        padding: clamp(10px, 2vw, 26px);
-        gap: 2%;
-    }
-
-    .left-side {
-        width: 36%;
-    }
-
-    .project-img {
-        width: clamp(55px, 8vw, 120px);
-        height: 62%;
-    }
-
-    .project-no {
-        font-size: clamp(3rem, 7vw, 8rem);
-    }
-
-    .right-side {
-        width: 60%;
-    }
-
-    .right-side h1 {
-        font-size: clamp(0.8rem, 1.4vw, 1.4rem);
-        margin-bottom: clamp(4px, 0.8vh, 10px);
-    }
-
-    .right-side p {
-        font-size: clamp(0.6rem, 0.9vw, 0.9rem);
-        margin-bottom: clamp(5px, 1vh, 14px);
-    }
-
-    .right-side h3 {
-        font-size: clamp(0.6rem, 0.85vw, 0.9rem);
-        margin: clamp(6px, 1.2vh, 18px) 0;
-    }
-
-    .skill {
-        gap: clamp(6px, 1.2vw, 16px);
-        margin-bottom: clamp(5px, 1vh, 14px);
-    }
-
-    .skill span {
-        width: clamp(45px, 6.5vw, 100px);
-        font-size: clamp(0.55rem, 0.8vw, 0.85rem);
-    }
-
-    .bar {
-        height: clamp(5px, 1vh, 11px);
-    }
-
-    /* ===== SLIDER 5 — TESTIMONIAL ===== */
-
-    .slider5 {
-        width: 92vw;
-        left: -92vw;
-    }
-
-    #testimonial:checked ~ .container .slider5 {
-        left: 4vw;
-    }
-
-    .testimonial-nav {
-        gap: clamp(10px, 2.5vw, 38px);
-        margin-top: 5vh;
-        font-size: clamp(0.65rem, 1.2vw, 1.2rem);
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .slider5 h1 {
-        font-size: clamp(1.5rem, 4vw, 3.2rem);
-        margin-top: clamp(60px, 18vh, 180px);
-        letter-spacing: clamp(2px, 0.8vw, 10px);
-    }
-
-    .outer {
-        width: clamp(260px, 45vw, 620px);
-        height: clamp(260px, 45vw, 620px);
-        left: clamp(50px, 10vw, 160px);
-        top: clamp(80px, 16vh, 170px);
-    }
-
-    .inner {
-        width: clamp(170px, 30vw, 420px);
-        height: clamp(170px, 30vw, 420px);
-        left: clamp(110px, 15vw, 260px);
-        top: clamp(140px, 26vh, 270px);
-    }
-
-    .avatar {
-        width: clamp(32px, 4.2vw, 62px);
-        height: clamp(32px, 4.2vw, 62px);
-    }
-
-    .a1 { top: clamp(90px, 17vh, 190px);  left: clamp(160px, 27vw, 420px); }
-    .a2 { top: clamp(160px, 28vh, 310px); left: clamp(310px, 42vw, 620px); }
-    .a3 { top: clamp(260px, 43vh, 470px); left: clamp(340px, 45vw, 660px); }
-    .a4 { top: clamp(190px, 33vh, 360px); left: clamp(100px, 15vw, 240px); }
-    .a5 { top: clamp(300px, 50vh, 540px); left: clamp(130px, 18vw, 280px); }
-
-    .cards-track {
-        bottom: clamp(20px, 5vh, 65px);
-    }
-
-    .testimonial-cards {
-        gap: clamp(14px, 2.8vw, 42px);
-    }
-
-    .t-card {
-        width: clamp(140px, 13vw, 200px);
-        height: clamp(170px, 27vh, 260px);
-        padding: clamp(10px, 1.6vh, 18px);
-    }
-
-    .t-card h4 {
-        font-size: clamp(0.65rem, 1vw, 1rem);
-        margin-bottom: clamp(6px, 1.2vh, 14px);
-    }
-
-    .t-card p {
-        font-size: clamp(0.58rem, 0.88vw, 0.9rem);
-        line-height: clamp(1rem, 1.9vh, 1.5rem);
-    }
-
-    .card-user {
-        gap: clamp(5px, 0.9vw, 12px);
-    }
-
-    .card-user img {
-        width: clamp(26px, 3vw, 44px);
-        height: clamp(26px, 3vw, 44px);
-    }
-
-    .card-user h5 {
-        font-size: clamp(0.6rem, 0.9vw, 0.9rem);
-    }
-
-    .card-user span {
-        font-size: clamp(0.55rem, 0.82vw, 0.85rem);
-    }
-
-    /* ===== SLIDER 6 — CONTACT ===== */
-
-    .slider6 {
-        width: 92vw;
-        left: 4vw;
-    }
-
-    .contact-left {
-        width: 40%;
-        padding: clamp(16px, 3vw, 44px);
-        left: -500px;
-    }
-
-    .contact-left h1 {
-        font-size: clamp(1rem, 2.4vw, 2.2rem);
-        letter-spacing: clamp(2px, 0.5vw, 8px);
-        margin-bottom: clamp(14px, 4vh, 44px);
-    }
-
-    .contact-card {
-        border-radius: 28px;
-        padding: clamp(12px, 2vw, 26px);
-    }
-
-    .contact-card img {
-        height: clamp(110px, 20vh, 220px);
-    }
-
-    .contact-item {
-        padding: clamp(6px, 1vh, 12px);
-        margin-top: clamp(5px, 0.9vh, 10px);
-        font-size: clamp(0.5rem, 0.9vw, 1.1rem);
-        border-radius: 10px;
-    }
-
-    .contact-right {
-        width: 60%;
-        padding: clamp(22px, 4vw, 55px);
-        right: -900px;
-    }
-
-    .contact-nav {
-        gap: clamp(10px, 2.4vw, 36px);
-        font-size: clamp(0.6rem, 1.1vw, 1.1rem);
-        margin-bottom: clamp(14px, 3vh, 38px);
-        flex-wrap: wrap;
-        justify-content: flex-end;
-    }
-
-    .contact-right h2 {
-        font-size: clamp(0.85rem, 1.5vw, 1.5rem);
-        margin-bottom: clamp(8px, 1.5vh, 18px);
-    }
-
-    .contact-right form {
-        gap: clamp(10px, 2vh, 22px);
-    }
-
-    .contact-right input,
-    .contact-right textarea {
-        padding: clamp(8px, 1.2vh, 14px);
-        font-size: clamp(0.75rem, 1.2vw, 1.2rem);
-        border-radius: 14px;
-    }
-
-    .contact-right textarea {
-        height: clamp(100px, 20vh, 220px);
-    }
-
-    .contact-right button {
-        padding: clamp(10px, 1.6vh, 18px);
-        font-size: clamp(0.8rem, 1.2vw, 1.2rem);
-        border-radius: 14px;
-    }
-
-    /* ===== CONTACT STATE ===== */
-
-    #contact:checked ~ .container .slider1 { right: -60vw; }
-    #contact:checked ~ .container .slider2 { right: -110vw; }
-    #contact:checked ~ .container .slider3 { right: -160vw; }
-    #contact:checked ~ .container .slider4 { right: -160vw; }
-    #contact:checked ~ .container .slider5 { left: -160vw; }
-
+/* =====================================================================
+   RESPONSIVE LAYOUT  -  PC  |  LAPTOP  |  TABLET  |  MOBILE
+   ---------------------------------------------------------------------
+   Your HTML and the radio / checkbox slider logic are NOT changed.
+   Only sizes, positions and spacing are adapted for each screen size.
+
+     PC      : 1500px and up
+     LAPTOP  : 1025px - 1499px   (the base CSS above is already made for it)
+     TABLET  : 601px  - 1024px
+     MOBILE  : 600px and below
+
+   Structure of this part of the file
+     1. Shared rules  (variables + slider geometry + home text)
+     2. PC
+     3. TABLET
+     4. MOBILE
+     5. Short landscape screens (phones turned sideways)
+   ===================================================================== */
+/* =====================================================================
+   RESPONSIVE LAYOUT  -  PC  |  LAPTOP  |  TABLET  |  MOBILE
+   ---------------------------------------------------------------------
+   Your HTML and the radio / checkbox slider logic are NOT changed.
+   Only sizes, positions and spacing are adapted for each screen size.
+
+     PC      : 1500px and up
+     LAPTOP  : 1025px - 1499px   (the base CSS above is already made for it)
+     TABLET  : 601px  - 1024px
+     MOBILE  : 600px and below
+
+   Structure of this part of the file
+     1. Shared rules  (variables + slider geometry + home text)
+     2. PC
+     3. TABLET
+     4. MOBILE
+     5. Short landscape screens (phones turned sideways)
+   ===================================================================== */
+
+html,
+body {
+    overflow-x: hidden;
 }
 
-/* ===== MOBILE / PHONE STYLES ===== */
-
-@media (max-width: 768px) {
-
-    .container {
-        overflow-x: hidden;
-        height:100vh;
-        overflow-y:scroll;
-    }
-
-    .left,
-    .right {
-        width: 0vw;
-        display: none;
-    }
-
-    /* ===== SLIDER 1 ===== */
-
-    .slider1 {
-        width: 50vw;
-        right: 0vw;
-    }
-
-    .slider1 .navbar {
-        height: 8vh;
-        flex-direction: row;
-        justify-content: space-around;
-        padding: 0 4vw;
-    }
-
-    .slider1 .navbar .menu {
-        width: auto;
-        height: 6vh;
-        font-size: clamp(0.7rem, 3vw, 1rem);
-        font-weight: 800;
-    }
-
-    .slider1 .name {
-        font-size: clamp(2rem, 8vw, 3rem);
-        top: 12vh;
-        width: 90%;
-        left: 1vw;
-    }
-
-    .slider1 .head {
-        font-size: clamp(1.2rem, 5vw, 2rem);
-        top: 22vh;
-        width: 90%;
-        left: 1vw;
-    }
-
-    .slider1 .head1 {
-        font-size: clamp(1.2rem, 5vw, 2rem);
-        top: 30vh;
-        width: 90%;
-        left: 1vw;
-    }
-
-    .slider1 .head2 {
-        font-size: clamp(1.2rem, 5vw, 2rem);
-        top: 38vh;
-        width: 90%;
-        left: 1vw;
-    }
-
-    .slider1 .para {
-        font-size: clamp(0.85rem, 3.5vw, 1.2rem);
-        top: 54vh;
-        width: 90%;
-        left: 1vw;
-    }
-
-    .slider1 .btn {
-        top: 62vh;
-        left: 5vw;
-        font-size: clamp(0.75rem, 3vw, 1rem);
-        padding: clamp(8px, 2vh, 12px) clamp(16px, 5vw, 24px);
-        margin-left: 0;
-    }
-
-    /* ===== SLIDER 2 ===== */
-
-    .slider2 {
-        width: 50vw;
-        right: 100vw;
-    }
-
-    .slider2 .navbar {
-        height: 8vh;
-        justify-content: space-around;
-        padding: 0 2vw;
-    }
-
-    .slider2 .navbar .menu {
-        width: auto;
-        height: 6vh;
-        font-size: clamp(0.65rem, 2.8vw, 0.95rem);
-        font-weight: 800;
-    }
-
-
-    .slider2 .name {
-        font-size: clamp(2rem, 8vw, 3rem);
-        top: 12vh;
-        left: 31vw;
-        width: 90%;
-    }
-
-    .slider2 .head {
-        font-size: clamp(1.2rem, 5vw, 2rem);
-        top: 22vh;
-        left: 30vw;
-        width: 90%;
-    }
-
-    .slider2 .head1 {
-        font-size: clamp(1.2rem, 5vw, 2rem);
-        top: 30vh;
-        left: 30vw;
-        width: 90%;
-    }
-
-    .slider2 .head2 {
-        font-size: clamp(1.2rem, 5vw, 2rem);
-        top: 38vh;
-        left: 30vw;
-        width: 90%;
-    }
-
-    .slider2 .head3 {
-        font-size: clamp(1.2rem, 5vw, 2rem);
-        top: 42vh;
-        left: 30vw;
-        width: 90%;
-    }
-
-    .slider2 .para {
-        font-size: clamp(0.85rem, 3.5vw, 1.2rem);
-        top: 54vh;
-        left: 24vw;
-        width: 90%;
-    }
-
-    .slider2 .btn {
-        top: 62vh;
-        left: 15vw;
-        font-size: clamp(0.75rem, 3vw, 1rem);
-        padding: clamp(8px, 2vh, 12px) clamp(16px, 5vw, 24px);
-        margin-left: 0;
-    }
-
-    /* ===== HOME STATE ===== */
-
-    #home:checked ~ .container .slider1 {
-        right: 0vw;
-    }
-
-    #home:checked ~ .container .slider2 {
-        left:1px;
-        border:2px solid white;
-        z-index:5;
-    }
-
-    #home:checked ~ .container .slider3 {
-        right: 100vw;
-    }
-
-    /* ===== ABOUT STATE ===== */
-
-    #about:checked ~ .container .slider1 {
-        right: -100vw;
-    }
-
-    #about:checked ~ .container .slider2 {
-        right: -100vw;
-    }
-
-    #about:checked ~ .container .slider3 {
-        right: 0vw;
-    }
-
-    /* ===== SLIDER 3 ===== */
-
-    .slider3 {
-        width: 100vw;
-        right: 100vw;
-        padding-bottom: 4vh;
-    }
-
-    .slider3 .profile {
-        width: clamp(150px, 25vw, 140px);
-        height: clamp(150px, 25vw, 140px);
-        right: 33vw;
-        top: 55%;
-    }
-
-    .topbar {
-        margin-top: 2vh;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 2vh;
-        padding: 0 4vw;
-    }
-
-    .title-box {
-        width: clamp(160px, 50vw, 240px);
-        height: clamp(45px, 7vh, 60px);
-        border-radius: 0px 30px 30px 0px;
-        margin-left: -4vw;
-    }
-
-    .title-box h1 {
-        font-size: clamp(1.3rem, 5vw, 2rem);
-    }
-
-    .menu-bar {
-        margin-left: 0;
-        gap: clamp(10px, 3vw, 18px);
-        font-size: clamp(0.7rem, 3vw, 1rem);
-        flex-wrap: wrap;
-        width: 100%;
-    }
-
-    .about-container {
-        margin-top: 2vh;
-        flex-direction: column;
-        padding: 0 4vw;
-    }
-
-    .about-left {
-        width: 100%;
-        margin-left: 0;
-        order: 2;
-    }
-
-    .about-left h2 {
-        font-size: clamp(1.8rem, 6vw, 2.5rem);
-        margin-bottom: 2vh;
-        margin-top: 2vh;
-    }
-
-    .about-left p {
-        font-size: clamp(0.9rem, 3.8vw, 1.3rem);
-        line-height: clamp(1.6rem, 6vh, 2.2rem);
-        margin-bottom: 2vh;
-    }
-
-    .buttons {
-        gap: clamp(12px, 4vw, 20px);
-        margin-top: 2.5vh;
-        flex-wrap: wrap;
-    }
-
-    .cv-btn {
-        padding: clamp(10px, 2vh, 14px) clamp(20px, 6vw, 32px);
-        font-size: clamp(0.85rem, 3.5vw, 1.1rem);
-    }
-
-    .hire-btn {
-        padding: clamp(10px, 2vh, 14px) clamp(20px, 6vw, 32px);
-        font-size: clamp(0.85rem, 3.5vw, 1.1rem);
-    }
-
-    .skills-box {
-        margin-top: 3vh;
-        padding: clamp(14px, 2.5vh, 20px);
-        border-radius: 20px;
-        top:70%;
-        position:absolute;
-        left:0;
-    }
-
-    .skills-box h3 {
-        font-size: clamp(0.95rem, 4vw, 1.3rem);
-        margin-bottom: 2vh;
-    }
-
-    .icons {
-        gap: clamp(12px, 3.5vw, 18px);
-        justify-content: center;
-    }
-
-    .icons img {
-        width: clamp(36px, 10vw, 55px);
-        height: clamp(36px, 10vw, 55px);
-    }
-
-    /* ===== SLIDER 4 — PROJECTS ===== */
-
-    .slider4 {
-        width: 100vw;
-        right: -100vw;
-    }
-
-    #project:checked ~ .container .slider4 {
-        right: 0vw;
-    }
-
-    #project:checked ~ .container .slider3 {
-        right: 100vw;
-    }
-
-    #home:checked ~ .container .slider4,
-    #about:checked ~ .container .slider4 {
-        right: -100vw;
-    }
-
-    .project-top {
-        padding-top: 3vh;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 2vh;
-        padding-left: 0;
-    }
-
-    .project-title {
-        width: clamp(160px, 50vw, 240px);
-        height: clamp(50px, 8vh, 70px);
-        border-radius: 0px 35px 35px 0px;
-    }
-
-    .project-title h1 {
-        font-size: clamp(1.3rem, 5vw, 2rem);
-    }
-
-    .project-nav {
-        margin-left: 4vw;
-        gap: clamp(10px, 3.5vw, 20px);
-        flex-wrap: wrap;
-        width: 92%;
-    }
-
-    .project-nav label {
-        font-size: clamp(0.7rem, 3vw, 1rem);
-    }
-
-    .project-cards {
-        margin-top: clamp(30px, 6vh, 60px);
-        flex-direction: column;
-        gap: clamp(20px, 3vh, 35px);
-        padding: 0 4vw;
-        align-items: stretch;
-    }
-
-    .card {
-        width: 100%;
-        height:30vh;
-    }
-
-    .card-top {
-        padding: clamp(14px, 1vh, 22px);
-    }
-
-    .card h2 {
-        font-size: clamp(1.3rem, 3vw, 1.8rem);
-        margin-bottom: clamp(10px, 2vh, 16px);
-    }
-
-    .card p {
-        font-size: clamp(0.9rem, 3vw, 1.2rem);
-        line-height: clamp(1.5rem, 5vh, 2rem);
-    }
-
-    .tags {
-        margin-top: clamp(12px, 2vh, 20px);
-        gap: clamp(6px, 2vw, 12px);
-    }
-
-    .tags span {
-        padding: clamp(6px, 1.2vh, 10px) clamp(10px, 3vw, 16px);
-        font-size: clamp(0.75rem, 3vw, 1rem);
-    }
-
-    .card-bottom {
-        padding: clamp(10px, 2vh, 14px);
-    }
-
-    .card-bottom h3 {
-        font-size: clamp(1.1rem, 4.5vw, 1.5rem);
-    }
-
-    .card-bottom .open-btn {
-        height: clamp(35px, 6vh, 50px);
-        width: clamp(40px, 10vw, 60px);
-        font-size: clamp(1.5rem, 6vw, 2.2rem);
-    }
-
-    /* ===== FRONTEND / BACKEND / DATABASE SLIDERS ===== */
-
-    .frontend-slider,
-    .backend-slider,
-    .database-slider {
-        left: 0vw;
-        width: 100vw;
-    }
-
-    .mark {
-        font-size: clamp(1.5rem, 6vw, 2.5rem);
-        position: absolute;
-        top: 2vh;
-        right: 5vw;
-        z-index: 999;
-    }
-
-    /* ===== PROJECTS DETAILS ===== */
-
-    .projects-details {
-        width: 100%;
-        height: auto;
-        min-height: clamp(400px, 70vh, 600px);
-        margin: clamp(60px, 12vh, 100px) auto clamp(30px, 5vh, 50px);
-        flex-direction: column;
-        gap: clamp(20px, 3vh, 30px);
-        padding: 0 4vw;
-    }
-
-    .project-wrapper {
-        position: relative !important;
-        width: 100% !important;
-        height: clamp(350px, 55vh, 500px);
-        left: 0 !important;
-    }
-
-    .project-wrapper:nth-child(1),
-    .project-wrapper:nth-child(2),
-    .project-wrapper:nth-child(3),
-    .project-wrapper:nth-child(4),
-    .project-wrapper:nth-child(5) {
-        position: relative !important;
-        left: 0 !important;
-        margin-bottom: 2vh;
-    }
-
-    #p1:checked ~ .container .project-wrapper:nth-child(1),
-    #p2:checked ~ .container .project-wrapper:nth-child(2),
-    #p3:checked ~ .container .project-wrapper:nth-child(3) {
-        width: 100% !important;
-    }
-
-    #p1:checked ~ .container .project-wrapper:nth-child(2),
-    #p1:checked ~ .container .project-wrapper:nth-child(3),
-    #p1:checked ~ .container .project-wrapper:nth-child(4),
-    #p1:checked ~ .container .project-wrapper:nth-child(5),
-    #p2:checked ~ .container .project-wrapper:nth-child(1),
-    #p2:checked ~ .container .project-wrapper:nth-child(3),
-    #p2:checked ~ .container .project-wrapper:nth-child(4),
-    #p2:checked ~ .container .project-wrapper:nth-child(5),
-    #p3:checked ~ .container .project-wrapper:nth-child(1),
-    #p3:checked ~ .container .project-wrapper:nth-child(2),
-    #p3:checked ~ .container .project-wrapper:nth-child(4),
-    #p3:checked ~ .container .project-wrapper:nth-child(5) {
-        left: 0 !important;
-    }
-
-    .before-card img {
-        height:300px;
-    }
-    
-    .before-card .heading {
-        font-size: clamp(2rem, 5vw, 1.8rem);
-        padding: clamp(8px, 1vh, 12px);
-    }
-
-    .before-card .number {
-        font-size: clamp(5rem, 20vw, 10rem);
-    }
-
-    .close-btn {
-        top: clamp(10px, 2vh, 16px);
-        right: clamp(10px, 3vw, 18px);
-        font-size: clamp(1.3rem, 5vw, 2rem);
-    }
-
-    .after-card {
-        flex-direction: column;
-        padding: clamp(16px, 3vh, 24px);
-        gap: 3vh;
-        overflow-y: auto;
-    }
-
-    .left-side {
-        width: 100%;
-        height: 40%;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .project-img {
-        width: clamp(100px, 35vw, 160px);
-        height: 80%;
-        position: relative;
-        top: auto;
-        left: auto;
-    }
-
-    .project-no {
-        font-size: clamp(5rem, 18vw, 10rem);
-        position: relative;
-        left: auto;
-        bottom: auto;
-    }
-
-    .right-side {
-        width: 100%;
-    }
-
-    .right-side h1 {
-        font-size: clamp(1.3rem, 5vw, 1.8rem);
-        margin-bottom: clamp(8px, 1.5vh, 14px);
-    }
-
-    .right-side p {
-        font-size: clamp(0.85rem, 3.5vw, 1.1rem);
-        margin-bottom: clamp(10px, 2vh, 16px);
-        line-height: 1.6;
-    }
-
-    .right-side h3 {
-        font-size: clamp(0.95rem, 4vw, 1.2rem);
-        margin: clamp(12px, 2.5vh, 20px) 0;
-    }
-
-    .skill {
-        gap: clamp(10px, 3vw, 18px);
-        margin-bottom: clamp(10px, 2vh, 16px);
-    }
-
-    .skill span {
-        width: clamp(70px, 18vw, 110px);
-        font-size: clamp(0.75rem, 3vw, 1rem);
-    }
-
-    .bar {
-        height: clamp(8px, 1.5vh, 14px);
-    }
-
-    .iconss {
-        bottom: 15px;
-        right: 15px;
-    }
-
-    /* ===== SLIDER 5 — TESTIMONIAL ===== */
-
-    .slider5 {
-        width: 100vw;
-        left: -100vw;
-    }
-
-    #testimonial:checked ~ .container .slider5 {
-        left: 0vw;
-    }
-
-    .testimonial-nav {
-        gap: clamp(10px, 3vw, 16px);
-        margin-top: 3vh;
-        font-size: clamp(0.7rem, 3vw, 1rem);
-        flex-wrap: wrap;
-        padding: 0 4vw;
-    }
-
-    .slider5 h1 {
-        font-size: clamp(2rem, 8vw, 3.5rem);
-        margin-top: clamp(40px, 10vh, 80px);
-        letter-spacing: clamp(2px, 1vw, 6px);
-    }
-
-    .outer {
-        width: clamp(280px, 70vw, 450px);
-        height: clamp(280px, 70vw, 450px);
-        left:15%;
-        top: clamp(120px, 22vh, 180px);
-    }
-
-    .inner {
-        width: clamp(180px, 45vw, 300px);
-        height: clamp(180px, 45vw, 300px);
-        left:30%;
-        top: clamp(170px, 30vh, 255px);
-    }
-
-    .avatar {
-        width: clamp(40px, 10vw, 65px);
-        height: clamp(40px, 10vw, 65px);
-    }
-
-    .a1 { top: clamp(130px, 23vh, 190px);  left: clamp(140px, 35vw, 230px); }
-    .a2 { top: clamp(200px, 35vh, 280px); left: clamp(250px, 62.5vw, 420px); }
-    .a3 { top: clamp(300px, 50vh, 420px); left: clamp(270px, 67.5vw, 450px); }
-    .a4 { top: clamp(210px, 37vh, 300px); left: clamp(60px, 15vw, 120px); }
-    .a5 { top: clamp(240px, 46vh, 480px); left: clamp(90px, 22.5vw, 150px); }
-
-    .cards-track {
-        bottom: clamp(30px, 6vh, 60px);
-    }
-
-    .testimonial-cards {
-        gap: clamp(16px, 4vw, 24px);
-    }
-
-    .t-card {
-        width: clamp(200px, 50vw, 280px);
-        height: clamp(220px, 35vh, 300px);
-        padding: clamp(14px, 2.5vh, 20px);
-    }
-
-    .t-card h4 {
-        font-size: clamp(0.9rem, 3.8vw, 1.2rem);
-        margin-bottom: clamp(8px, 1.5vh, 14px);
-    }
-
-    .t-card p {
-        font-size: clamp(0.8rem, 3.3vw, 1rem);
-        line-height: clamp(1.3rem, 5vh, 1.7rem);
-    }
-
-    .card-user {
-        gap: clamp(8px, 2.5vw, 14px);
-    }
-
-    .card-user img {
-        width: clamp(35px, 9vw, 50px);
-        height: clamp(35px, 9vw, 50px);
-    }
-
-    .card-user h5 {
-        font-size: clamp(0.8rem, 3.3vw, 1rem);
-    }
-
-    .card-user span {
-        font-size: clamp(0.7rem, 3vw, 0.9rem);
-    }
-
-    /* ===== SLIDER 6 — CONTACT ===== */
-
-    .slider6 {
-        width: 100vw;
-        left: 0vw;
-        flex-direction: column;
-    }
-
-    .contact-left {
-        width: 100%;
-        height: 50vh;
-        position: relative;
-        left: 0;
-        padding: clamp(20px, 4vh, 30px) clamp(16px, 4vw, 24px);
-        background: #f5f5f5;
-        transform: translateY(100vh);
-        transition: 1.5s;
-    }
-
-    .contact-left h1 {
-        font-size: clamp(1.5rem, 6vw, 2.5rem);
-        letter-spacing: clamp(2px, 1vw, 6px);
-        margin-bottom: clamp(20px, 3vh, 30px);
-    }
-
-    .contact-card {
-        border-radius: 24px;
-        padding: clamp(16px, 3vh, 24px);
-        height:300px;
-    }
-
-    .contact-card img {
-        height: clamp(140px, 12vh, 220px);
-        visibility: hidden;
-        display: none;
-
-    }
-
-    .contact-item {
-        padding: clamp(10px, 2vh, 14px);
-        font-size: clamp(0.8rem, 3.3vw, 1.1rem);
-        border-radius: 12px;
-    }
-
-    .contact-right {
-        width: 100%;
-        height: auto;
-        position: relative;
-        right: 0;
-        padding: clamp(24px, 2vh, 35px) clamp(16px, 4vw, 24px);
-        background: black;
-        transform: translateY(100vh);
-        transition: 1.5s;
-        z-index:100px;
-    }
-
-    .contact-nav {
-        gap: clamp(12px, 3.5vw, 20px);
-        font-size: clamp(0.7rem, 3vw, 1rem);
-        margin-bottom: clamp(20px, 3vh, 30px);
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .contact-right h2 {
-        font-size: clamp(1.2rem, 5vw, 1.8rem);
-        margin-bottom: clamp(14px, 2.5vh, 20px);
-        text-align: center;
-    }
-
-    .contact-right form {
-        gap: clamp(14px, 2.5vh, 22px);
-    }
-
-    .contact-right input,
-    .contact-right textarea {
-        padding: clamp(12px, 1vh, 16px);
-        font-size: clamp(0.9rem, 3.8vw, 1.2rem);
-        border-radius: 16px;
-    }
-
-    .contact-right textarea {
-        height: clamp(100px, 9vh, 260px);
-    }
-
-    .contact-right button {
-        padding: clamp(14px, 2.5vh, 20px);
-        font-size: clamp(0.95rem, 4vw, 1.3rem);
-        border-radius: 16px;
-    }
-
-    /* ===== CONTACT STATE ===== */
-
-    #contact:checked ~ .container .slider6 {
-        z-index: 50;
-        pointer-events: auto;
-    }
-
-    #contact:checked ~ .container .slider6 .contact-left {
-        transform: translateY(0);
-    }
-
-    #contact:checked ~ .container .slider6 .contact-right {
-        transform: translateY(0);
-    }
-
-    #contact:checked ~ .container .slider1 { right: -100vw; }
-    #contact:checked ~ .container .slider2 { right: -100vw; }
-    #contact:checked ~ .container .slider3 { right: -100vw; }
-    #contact:checked ~ .container .slider4 { right: -100vw; }
-    #contact:checked ~ .container .slider5 { left: -100vw; }
-
+.container {
+    height: 100vh;
+    height: 100vh;
 }
 
-/* ===== EXTRA SMALL PHONES ===== */
+/* The photo keeps its real proportions (it was being squeezed) */
+.slider3 .profile {
+    object-fit: cover;
+    object-position: 50% 0%;
+}
 
-@media (max-width: 480px) {
+/* ---- Project cards: opened card no longer overlaps its neighbours ---- */
+.project-wrapper { width: 18%; }
+
+.project-wrapper:nth-child(1) { left: 0; }
+
+.project-wrapper:nth-child(2) { left: calc((18% + 2%) * 1); }
+
+.project-wrapper:nth-child(3) { left: calc((18% + 2%) * 2); }
+
+.project-wrapper:nth-child(4) { left: calc((18% + 2%) * 3); }
+
+.project-wrapper:nth-child(5) { left: calc((18% + 2%) * 4); }
+
+/* project 1 opened */
+#p1:checked ~ .container .project-wrapper { width: 12%; }
+
+#p1:checked ~ .container .project-wrapper:nth-child(1) { width: 44%; left: 0; }
+
+#p1:checked ~ .container .project-wrapper:nth-child(2) { left: calc(44% + 2%); }
+
+#p1:checked ~ .container .project-wrapper:nth-child(3) { left: calc(44% + 2% + (12% + 2%) * 1); }
+
+#p1:checked ~ .container .project-wrapper:nth-child(4) { left: calc(44% + 2% + (12% + 2%) * 2); }
+
+#p1:checked ~ .container .project-wrapper:nth-child(5) { left: calc(44% + 2% + (12% + 2%) * 3); }
+
+/* project 2 opened */
+#p2:checked ~ .container .project-wrapper { width: 12%; }
+
+#p2:checked ~ .container .project-wrapper:nth-child(1) { left: 0; }
+
+#p2:checked ~ .container .project-wrapper:nth-child(2) { width: 44%; left: calc(12% + 2%); }
+
+#p2:checked ~ .container .project-wrapper:nth-child(3) { left: calc(12% + 2% + 44% + 2%); }
+
+#p2:checked ~ .container .project-wrapper:nth-child(4) { left: calc(12% + 2% + 44% + 2% + (12% + 2%) * 1); }
+
+#p2:checked ~ .container .project-wrapper:nth-child(5) { left: calc(12% + 2% + 44% + 2% + (12% + 2%) * 2); }
+
+/* project 3 opened */
+#p3:checked ~ .container .project-wrapper { width: 12%; }
+
+#p3:checked ~ .container .project-wrapper:nth-child(1) { left: 0; }
+
+#p3:checked ~ .container .project-wrapper:nth-child(2) { left: calc((12% + 2%) * 1); }
+
+#p3:checked ~ .container .project-wrapper:nth-child(3) { width: 44%; left: calc((12% + 2%) * 2); }
+
+#p3:checked ~ .container .project-wrapper:nth-child(4) { left: calc((12% + 2%) * 2 + 44% + 2%); }
+
+#p3:checked ~ .container .project-wrapper:nth-child(5) { left: calc((12% + 2%) * 3 + 44% + 2%); }
+
+/* ---------------------------------------------------------------------
+   2. PC  (1500px and up)
+   --------------------------------------------------------------------- */
+
+@media (min-width: 1500px) {
+    .container .left,
+        .container .right {
+            width: 10vw;
+        }
+
+    /* ---- slider sizes + resting positions ---- */
+        .slider1 { width: 27vw; right: 10vw; }
+
+    .slider2 { width: 32vw; right: calc(10vw + 27vw); }
+
+    .slider3 { width: calc(100vw - 2 * 10vw); right: calc(10vw + 27vw + 32vw); }
+
+    .slider4 { width: calc(100vw - 2 * 10vw); right: calc(-1 * calc(100vw - 2 * 10vw)); }
+
+    .slider5 { width: calc(100vw - 2 * 10vw); left: calc(-1 * calc(100vw - 2 * 10vw)); }
+
+    .slider6 { width: calc(100vw - 2 * 10vw); left: 10vw; }
+
+    .frontend-slider,
+        .backend-slider,
+        .database-slider {
+            left: 10vw;
+            width: calc(100vw - 2 * 10vw);
+        }
+
+    /* ---- slide states (same logic as before, using the variables) ---- */
+        #home:checked ~ .container .slider1 { right: 10vw; }
+
+    #home:checked ~ .container .slider2 { right: calc(10vw + 27vw); }
+
+    #home:checked ~ .container .slider3 { right: calc(10vw + 27vw + 32vw); }
+
+    #about:checked ~ .container .slider1 { right: calc(-1 * 27vw - 20vw); }
+
+    #about:checked ~ .container .slider2 { right: -10vw; }
+
+    #about:checked ~ .container .slider3 { right: 10vw; }
+
+    #project:checked ~ .container .slider4 { right: 10vw; }
+
+    #project:checked ~ .container .slider3 { right: calc(100vw - 10vw); }
+
+    #home:checked ~ .container .slider4,
+        #about:checked ~ .container .slider4 { right: calc(-1 * calc(100vw - 2 * 10vw)); }
+
+    #testimonial:checked ~ .container .slider5 { left: 10vw; }
+
+    /* ---- HOME photo ---- */
+        .slider3 .profile {
+            width: 22vw;
+            height: min(36.5vw, 80vh);
+            top: 10%;
+        }
+
+    .slider1 .navbar,
+        .slider2 .navbar {
+            height: 13vh;
+        }
+
+    .slider1 .navbar .menu,
+        .slider2 .navbar .menu {
+            width: auto;
+            flex: 1 1 auto;
+            height: 13vh;
+            font-size: max(18.8px, min(1.25vw, 32.0px));
+            white-space: nowrap;
+        }
 
     .slider1 .name,
-    .slider2 .name {
-        font-size: clamp(1.6rem, 7vw, 2.5rem);
-    }
+        .slider2 .name {
+            font-size: calc(max(37.5px, min(min(2.5vw, 6.4vh), 64.0px)) * 1.5);
+            top: 18vh;
+            height: auto;
+            width: auto;
+            white-space: nowrap;
+            line-height: 1.15;
+        }
 
-    .slider1 .head,
-    .slider1 .head1,
-    .slider1 .head2,
+    .slider1 .head,  .slider2 .head,
+        .slider1 .head1, .slider2 .head1,
+        .slider1 .head2, .slider2 .head2,
+        .slider2 .head3 {
+            font-size: max(37.5px, min(min(2.5vw, 6.4vh), 64.0px));
+            height: auto;
+            width: auto;
+            white-space: nowrap;
+            line-height: 1.15;
+        }
+
+    .slider1 .head,  .slider2 .head { top: calc(18vh + calc(max(37.5px, min(min(2.5vw, 6.4vh), 64.0px)) * 1.5) * 1.7); }
+
+    .slider1 .head1, .slider2 .head1 { top: calc(calc(18vh + calc(max(37.5px, min(min(2.5vw, 6.4vh), 64.0px)) * 1.5) * 1.7) + calc(max(37.5px, min(min(2.5vw, 6.4vh), 64.0px)) * 1.6)); }
+
+    .slider1 .head2, .slider2 .head2 { top: calc(calc(18vh + calc(max(37.5px, min(min(2.5vw, 6.4vh), 64.0px)) * 1.5) * 1.7) + calc(max(37.5px, min(min(2.5vw, 6.4vh), 64.0px)) * 1.6) * 2); }
+
+    .slider2 .head3 { top: calc(calc(18vh + calc(max(37.5px, min(min(2.5vw, 6.4vh), 64.0px)) * 1.5) * 1.7) + calc(max(37.5px, min(min(2.5vw, 6.4vh), 64.0px)) * 1.6) * 3); }
+
+    .slider2 .name { left: calc(32vw - calc(max(37.5px, min(min(2.5vw, 6.4vh), 64.0px)) * 1.5) * 2.85); }
+
     .slider2 .head,
-    .slider2 .head1,
-    .slider2 .head2,
-    .slider2 .head3 {
-        font-size: clamp(1rem, 4.5vw, 1.6rem);
-    }
+        .slider2 .head1,
+        .slider2 .head2,
+        .slider2 .head3 { left: calc(32vw - max(37.5px, min(min(2.5vw, 6.4vh), 64.0px)) * 4.36); }
 
-    .about-left h2 {
-        font-size: clamp(1.5rem, 5.5vw, 2rem);
-    }
+    .slider1 .para,
+        .slider2 .para {
+            font-size: 1.35vw;
+            top: calc(calc(18vh + calc(max(37.5px, min(min(2.5vw, 6.4vh), 64.0px)) * 1.5) * 1.7) + calc(max(37.5px, min(min(2.5vw, 6.4vh), 64.0px)) * 1.6) * 4.2);
+            height: auto;
+            width: auto;
+            white-space: nowrap;
+        }
 
-    .about-left p {
-        font-size: clamp(0.85rem, 3.5vw, 1.1rem);
-        line-height: clamp(1.5rem, 5.5vh, 2rem);
-    }
+    .slider2 .para { left: auto; right: calc(1.35vw * 0.3); }
 
-    .icons img {
-        width: clamp(32px, 9vw, 48px);
-        height: clamp(32px, 9vw, 48px);
-    }
+    .slider1 .btn,
+        .slider2 .btn {
+            top: calc(calc(18vh + calc(max(37.5px, min(min(2.5vw, 6.4vh), 64.0px)) * 1.5) * 1.7) + calc(max(37.5px, min(min(2.5vw, 6.4vh), 64.0px)) * 1.6) * 5.3);
+            font-size: 0.95vw;
+            padding: calc(0.95vw * 0.9) calc(0.95vw * 1.6);
+            white-space: nowrap;
+            margin-left: 0;
+            line-height: 1.2;
+        }
 
-    .project-cards {
-        padding: 0 3vw;
-    }
+    .slider2 .btn { left: auto; right: 0.7vw; }
 
-    .card {
-        height: clamp(260px, 42vh, 360px);
-    }
+    .slider1 .btn { left: 0.7vw; }
 
-    .t-card {
-        width: clamp(180px, 48vw, 250px);
-        height: clamp(200px, 32vh, 270px);
-    }
+    /* lets every rem based font-size cap keep growing with the screen */
+        html { font-size: max(16.5px, min(1.1vw, 28.2px)); }
+
+    /* ---- ABOUT ---- */
+        .title-box { width: 20vw; height: 7vh; }
+
+    .menu-bar { gap: 1.8vw; margin-left: 13vw; }
+
+    .buttons { gap: 1.8vw; }
+
+    .cv-btn { padding: 1vh 2vw; }
+
+    .hire-btn { padding: 1.2vh 2.3vw; }
+
+    .skills-box { padding: 2vh 1.5vw; }
+
+    .icons { gap: 1.4vw; }
+
+    .icons img { width: 3.5vw; height: 3.5vw; }
+
+    /* ---- PROJECTS ---- */
+        .project-title { width: 20vw; height: 8vh; }
+
+    .project-nav { gap: 2.5vw; margin-left: 12vw; }
+
+    .project-cards { margin-top: 12vh; gap: 2.5vw; }
+
+    .card { width: 19vw; height: 35vh; }
+
+    .card-top { padding: 2vh 1.2vw; }
+
+    .tags span { padding: 0.8vh 1vw; }
+
+    .card-bottom { padding: 1vh 1vw; }
+
+    .card-bottom .open-btn { height: 5vh; width: 3.5vw; }
+
+    .projects-details { height: 55vh; margin: 8vh auto; }
+
+    .after-card { padding: 2.5vw; }
+
+    .project-img { width: 9vw; }
+
+    .skill { gap: 1.5vw; }
+
+    .skill span { width: 8vw; }
+
+    .bar { height: 1.2vh; }
+
+    /* ---- TESTIMONIAL (circles + avatars are placed around one centre) ---- */
+        .testimonial-nav { gap: 3.5vw; }
+
+    .slider5 h1 { margin-top: 22vh; letter-spacing: 1vw; }
+
+    .outer {
+            width: calc(min(27.5vw, 52vh) * 2);
+            height: calc(min(27.5vw, 52vh) * 2);
+            left: calc(calc(calc(100vw - 2 * 10vw) / 2) - min(27.5vw, 52vh));
+            top: calc(calc(20vh + min(27.5vw, 52vh)) - min(27.5vw, 52vh));
+        }
+
+    .inner {
+            width: calc(calc(min(27.5vw, 52vh) * 0.69) * 2);
+            height: calc(calc(min(27.5vw, 52vh) * 0.69) * 2);
+            left: calc(calc(calc(100vw - 2 * 10vw) / 2) - calc(min(27.5vw, 52vh) * 0.69));
+            top: calc(calc(20vh + min(27.5vw, 52vh)) - calc(min(27.5vw, 52vh) * 0.69));
+        }
+
+    .avatar { width: 5vw; height: 5vw; }
+
+    .a1 { left: calc(calc(calc(100vw - 2 * 10vw) / 2) + min(27.5vw, 52vh) * (-0.2588) - 5vw / 2); top: calc(calc(20vh + min(27.5vw, 52vh)) + min(27.5vw, 52vh) * (-0.9659) - 5vw / 2); }
+
+    .a2 { left: calc(calc(calc(100vw - 2 * 10vw) / 2) + calc(min(27.5vw, 52vh) * 0.69) * (0.7071) - 5vw / 2); top: calc(calc(20vh + min(27.5vw, 52vh)) + calc(min(27.5vw, 52vh) * 0.69) * (-0.7071) - 5vw / 2); }
+
+    .a3 { left: calc(calc(calc(100vw - 2 * 10vw) / 2) + min(27.5vw, 52vh) * (0.9659) - 5vw / 2); top: calc(calc(20vh + min(27.5vw, 52vh)) + min(27.5vw, 52vh) * (-0.2588) - 5vw / 2); }
+
+    .a4 { left: calc(calc(calc(100vw - 2 * 10vw) / 2) + calc(min(27.5vw, 52vh) * 0.69) * (-0.8660) - 5vw / 2); top: calc(calc(20vh + min(27.5vw, 52vh)) + calc(min(27.5vw, 52vh) * 0.69) * (-0.5000) - 5vw / 2); }
+
+    .a5 { left: calc(calc(calc(100vw - 2 * 10vw) / 2) + min(27.5vw, 52vh) * (-0.9848) - 5vw / 2); top: calc(calc(20vh + min(27.5vw, 52vh)) + min(27.5vw, 52vh) * (-0.1736) - 5vw / 2); }
+
+    .cards-track { bottom: 7vh; }
+
+    .testimonial-cards { gap: 1vw; }
+
+    .t-card { width: 15vw; height: 30vh; padding: 2vh 1vw; margin-left: 1vw; }
+
+    .card-user { gap: 1vw; }
+
+    .card-user img { width: 3.5vw; height: 3.5vw; }
+
+    /* ---- CONTACT ---- */
+        .contact-left { padding: 4vw; }
+
+    .contact-card { padding: 2.5vw; }
+
+    .contact-card img { height: 25vh; }
+
+    .contact-item { padding: 1.2vh 0.8vw; }
+
+    .contact-right { padding: 5vw; }
+
+    .contact-nav { gap: 3vw; }
+
+    .contact-right input,
+        .contact-right textarea { padding: 1.5vh 1vw; }
+
+    .contact-right textarea { height: 25vh; }
+
+    .contact-right button { padding: 2vh; }
 
 }
 
-/* ===== TABLET VIEW (768px - 1024px) ===== */
+/* ---------------------------------------------------------------------
+   3. TABLET  (601px - 1024px)
+   --------------------------------------------------------------------- */
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 601px) and (max-width: 1024px) {
+    /* ---- Project cards: opened card no longer overlaps its neighbours ---- */
+    .project-wrapper { width: 18%; }
 
-    .container {
+    .project-wrapper:nth-child(1) { left: 0; }
+
+    .project-wrapper:nth-child(2) { left: calc((18% + 2%) * 1); }
+
+    .project-wrapper:nth-child(3) { left: calc((18% + 2%) * 2); }
+
+    .project-wrapper:nth-child(4) { left: calc((18% + 2%) * 3); }
+
+    .project-wrapper:nth-child(5) { left: calc((18% + 2%) * 4); }
+
+    /* project 1 opened */
+    #p1:checked ~ .container .project-wrapper { width: 11%; }
+
+    #p1:checked ~ .container .project-wrapper:nth-child(1) { width: 48%; left: 0; }
+
+    #p1:checked ~ .container .project-wrapper:nth-child(2) { left: calc(48% + 2%); }
+
+    #p1:checked ~ .container .project-wrapper:nth-child(3) { left: calc(48% + 2% + (11% + 2%) * 1); }
+
+    #p1:checked ~ .container .project-wrapper:nth-child(4) { left: calc(48% + 2% + (11% + 2%) * 2); }
+
+    #p1:checked ~ .container .project-wrapper:nth-child(5) { left: calc(48% + 2% + (11% + 2%) * 3); }
+
+    /* project 2 opened */
+    #p2:checked ~ .container .project-wrapper { width: 11%; }
+
+    #p2:checked ~ .container .project-wrapper:nth-child(1) { left: 0; }
+
+    #p2:checked ~ .container .project-wrapper:nth-child(2) { width: 48%; left: calc(11% + 2%); }
+
+    #p2:checked ~ .container .project-wrapper:nth-child(3) { left: calc(11% + 2% + 48% + 2%); }
+
+    #p2:checked ~ .container .project-wrapper:nth-child(4) { left: calc(11% + 2% + 48% + 2% + (11% + 2%) * 1); }
+
+    #p2:checked ~ .container .project-wrapper:nth-child(5) { left: calc(11% + 2% + 48% + 2% + (11% + 2%) * 2); }
+
+    /* project 3 opened */
+    #p3:checked ~ .container .project-wrapper { width: 11%; }
+
+    #p3:checked ~ .container .project-wrapper:nth-child(1) { left: 0; }
+
+    #p3:checked ~ .container .project-wrapper:nth-child(2) { left: calc((11% + 2%) * 1); }
+
+    #p3:checked ~ .container .project-wrapper:nth-child(3) { width: 48%; left: calc((11% + 2%) * 2); }
+
+    #p3:checked ~ .container .project-wrapper:nth-child(4) { left: calc((11% + 2%) * 2 + 48% + 2%); }
+
+    #p3:checked ~ .container .project-wrapper:nth-child(5) { left: calc((11% + 2%) * 3 + 48% + 2%); }
+
+    .container .left,
+        .container .right {
+            width: 5vw;
+        }
+
+    /* ---- slider sizes + resting positions ---- */
+        .slider1 { width: 26vw; right: 5vw; }
+
+    .slider2 { width: 27vw; right: calc(5vw + 26vw); }
+
+    .slider3 { width: calc(100vw - 2 * 5vw); right: calc(5vw + 26vw + 27vw); }
+
+    .slider4 { width: calc(100vw - 2 * 5vw); right: calc(-1 * calc(100vw - 2 * 5vw)); }
+
+    .slider5 { width: calc(100vw - 2 * 5vw); left: calc(-1 * calc(100vw - 2 * 5vw)); }
+
+    .slider6 { width: calc(100vw - 2 * 5vw); left: 5vw; }
+
+    .frontend-slider,
+        .backend-slider,
+        .database-slider {
+            left: 5vw;
+            width: calc(100vw - 2 * 5vw);
+        }
+
+    /* ---- slide states (same logic as before, using the variables) ---- */
+        #home:checked ~ .container .slider1 { right: 5vw; }
+
+    #home:checked ~ .container .slider2 { right: calc(5vw + 26vw); }
+
+    #home:checked ~ .container .slider3 { right: calc(5vw + 26vw + 27vw); }
+
+    #about:checked ~ .container .slider1 { right: calc(-1 * 26vw - 20vw); }
+
+    #about:checked ~ .container .slider2 { right: -10vw; }
+
+    #about:checked ~ .container .slider3 { right: 5vw; }
+
+    #project:checked ~ .container .slider4 { right: 5vw; }
+
+    #project:checked ~ .container .slider3 { right: calc(100vw - 5vw); }
+
+    #home:checked ~ .container .slider4,
+        #about:checked ~ .container .slider4 { right: calc(-1 * calc(100vw - 2 * 5vw)); }
+
+    #testimonial:checked ~ .container .slider5 { left: 5vw; }
+
+    /* ---- HOME photo ---- */
+        .slider3 .profile {
+            width: 36vw;
+            height: min(52vw, 70vh);
+            top: 20vh;
+        }
+
+    .slider1 .navbar,
+        .slider2 .navbar {
+            height: 11vh;
+        }
+
+    .slider1 .navbar .menu,
+        .slider2 .navbar .menu {
+            width: auto;
+            flex: 1 1 auto;
+            height: 11vh;
+            font-size: max(9.9px, min(min(1.65vw, 3vh), 16.9px));
+            white-space: nowrap;
+        }
+
+    .slider1 .name,
+        .slider2 .name {
+            font-size: calc(max(22.2px, min(min(3.7vw, 6.4vh), 37.9px)) * 1.5);
+            top: 24vh;
+            height: auto;
+            width: auto;
+            white-space: nowrap;
+            line-height: 1.15;
+        }
+
+    .slider1 .head,  .slider2 .head,
+        .slider1 .head1, .slider2 .head1,
+        .slider1 .head2, .slider2 .head2,
+        .slider2 .head3 {
+            font-size: max(22.2px, min(min(3.7vw, 6.4vh), 37.9px));
+            height: auto;
+            width: auto;
+            white-space: nowrap;
+            line-height: 1.15;
+        }
+
+    .slider1 .head,  .slider2 .head { top: calc(24vh + calc(max(22.2px, min(min(3.7vw, 6.4vh), 37.9px)) * 1.5) * 1.7); }
+
+    .slider1 .head1, .slider2 .head1 { top: calc(calc(24vh + calc(max(22.2px, min(min(3.7vw, 6.4vh), 37.9px)) * 1.5) * 1.7) + calc(max(22.2px, min(min(3.7vw, 6.4vh), 37.9px)) * 1.6)); }
+
+    .slider1 .head2, .slider2 .head2 { top: calc(calc(24vh + calc(max(22.2px, min(min(3.7vw, 6.4vh), 37.9px)) * 1.5) * 1.7) + calc(max(22.2px, min(min(3.7vw, 6.4vh), 37.9px)) * 1.6) * 2); }
+
+    .slider2 .head3 { top: calc(calc(24vh + calc(max(22.2px, min(min(3.7vw, 6.4vh), 37.9px)) * 1.5) * 1.7) + calc(max(22.2px, min(min(3.7vw, 6.4vh), 37.9px)) * 1.6) * 3); }
+
+    .slider2 .name { left: calc(27vw - calc(max(22.2px, min(min(3.7vw, 6.4vh), 37.9px)) * 1.5) * 2.85); }
+
+    .slider2 .head,
+        .slider2 .head1,
+        .slider2 .head2,
+        .slider2 .head3 { left: calc(27vw - max(22.2px, min(min(3.7vw, 6.4vh), 37.9px)) * 4.36); }
+
+    .slider1 .para,
+        .slider2 .para {
+            font-size: calc(max(22.2px, min(min(3.7vw, 6.4vh), 37.9px)) * 0.56);
+            top: calc(calc(24vh + calc(max(22.2px, min(min(3.7vw, 6.4vh), 37.9px)) * 1.5) * 1.7) + calc(max(22.2px, min(min(3.7vw, 6.4vh), 37.9px)) * 1.6) * 4.2);
+            height: auto;
+            width: auto;
+            white-space: nowrap;
+        }
+
+    .slider2 .para { left: auto; right: calc(calc(max(22.2px, min(min(3.7vw, 6.4vh), 37.9px)) * 0.56) * 0.3); }
+
+    .slider1 .btn,
+        .slider2 .btn {
+            top: calc(calc(24vh + calc(max(22.2px, min(min(3.7vw, 6.4vh), 37.9px)) * 1.5) * 1.7) + calc(max(22.2px, min(min(3.7vw, 6.4vh), 37.9px)) * 1.6) * 5.3);
+            font-size: calc(max(22.2px, min(min(3.7vw, 6.4vh), 37.9px)) * 0.48);
+            padding: calc(calc(max(22.2px, min(min(3.7vw, 6.4vh), 37.9px)) * 0.48) * 0.9) calc(calc(max(22.2px, min(min(3.7vw, 6.4vh), 37.9px)) * 0.48) * 1.6);
+            white-space: nowrap;
+            margin-left: 0;
+            line-height: 1.2;
+        }
+
+    .slider2 .btn { left: auto; right: 0.8vw; }
+
+    .slider1 .btn { left: 0.8vw; }
+
+    /* panels that can be taller than the screen scroll inside themselves */
+        .slider3,
+        .slider4 {
+            overflow-y: auto;
+            overflow-x: hidden;
+        }
+
+    /* ---- ABOUT ---- */
+        .topbar { margin-top: 5vh; }
+
+    .title-box { width: 24vw; height: max(7vh, 46px); }
+
+    .title-box h1 { font-size: max(19.2px, min(3.2vw, 32.8px)); }
+
+    .menu-bar { margin-left: 4vw; gap: 2.4vw; font-size: max(9.9px, min(min(1.65vw, 3vh), 16.9px)); }
+
+    .about-container { margin-top: 5vh; }
+
+    .about-left { width: 54%; margin-left: 3vw; }
+
+    .about-left h2 { font-size: max(26.4px, min(4.4vw, 45.1px)); margin-bottom: 2vh; }
+
+    .about-left p { font-size: max(13.2px, min(2.2vw, 22.5px)); line-height: 1.65; margin-bottom: 2vh; }
+
+    .buttons { gap: 2.5vw; margin-top: 3vh; }
+
+    .cv-btn { font-size: max(12.0px, min(2.0vw, 20.5px)); padding: 1.6vh 3.6vw; }
+
+    .hire-btn { font-size: max(12.0px, min(2.0vw, 20.5px)); padding: 1.4vh 3.6vw; border-width: 3px; }
+
+    .skills-box { margin-top: 4vh; border-width: 3px; border-radius: 28px; padding: 2vh 2.2vw; }
+
+    .skills-box h3 { font-size: max(13.8px, min(2.3vw, 23.6px)); margin-bottom: 1.5vh; }
+
+    .icons { gap: 1.8vw; }
+
+    .icons img { width: 5vw; height: 5vw; }
+
+    /* ---- PROJECTS ---- */
+        .project-top { padding-top: 6vh; }
+
+    .project-title { width: 24vw; height: max(7vh, 46px); }
+
+    .project-title h1 { font-size: max(19.2px, min(3.2vw, 32.8px)); }
+
+    .project-nav { gap: 2.4vw; margin-left: 5vw; }
+
+    .project-nav label { font-size: max(9.9px, min(min(1.65vw, 3vh), 16.9px)); }
+
+    .project-cards { margin-top: 13vh; gap: 2.5vw; padding: 0 2vw; }
+
+    .card { width: 27vw; height: max(38vh, 340px); }
+
+    .card h2 { font-size: max(15.0px, min(2.5vw, 25.6px)); margin-bottom: 1.2vh; }
+
+    .card p { font-size: max(10.8px, min(1.8vw, 18.4px)); line-height: 1.5; }
+
+    .card-top { padding: 2vh 1.8vw; }
+
+    .tags { gap: 0.8vw; margin-top: 1.6vh; }
+
+    .tags span { font-size: max(8.7px, min(1.45vw, 14.8px)); padding: 0.6vh 1.2vw; }
+
+    .card-bottom h3 { font-size: max(13.8px, min(2.3vw, 23.6px)); }
+
+    .card-bottom .open-btn { font-size: max(18.0px, min(3.0vw, 30.7px)); width: 6vw; }
+
+    .mark { font-size: max(20.4px, min(3.4vw, 34.8px)); padding: 1.5vh 2vw; display: inline-block; cursor: pointer; }
+
+    .projects-details { height: min(54vh, 78vw); margin: 4vh auto; }
+
+    .before-card .heading { font-size: max(12.0px, min(2.0vw, 20.5px)); }
+
+    .before-card .number { font-size: max(48.1px, min(8.0vw, 81.9px)); }
+
+    .after-card { padding: 2.2vw; }
+
+    .project-img { width: 11vw; }
+
+    .project-no { font-size: max(54.1px, min(9.0vw, 92.2px)); }
+
+    .right-side h1 { font-size: max(14.4px, min(2.4vw, 24.6px)); }
+
+    .right-side p { font-size: max(9.3px, min(1.55vw, 15.9px)); }
+
+    .right-side h3 { font-size: max(9.6px, min(1.6vw, 16.4px)); }
+
+    .skill span { font-size: max(9.0px, min(1.5vw, 15.4px)); width: 9vw; }
+
+    /* ---- TESTIMONIAL ---- */
+        .testimonial-nav { margin-top: 5vh; gap: 3.4vw; font-size: max(9.9px, min(min(1.65vw, 3vh), 16.9px)); }
+
+    .slider5 h1 { margin-top: 6vh; font-size: max(33.7px, min(5.6vw, 57.3px)); letter-spacing: 1vw; }
+
+    .outer {
+            width: calc(min(30vw, 26vh) * 2);
+            height: calc(min(30vw, 26vh) * 2);
+            left: calc(calc(calc(100vw - 2 * 5vw) / 2) - min(30vw, 26vh));
+            top: calc(calc(27vh + min(30vw, 26vh)) - min(30vw, 26vh));
+        }
+
+    .inner {
+            width: calc(calc(min(30vw, 26vh) * 0.69) * 2);
+            height: calc(calc(min(30vw, 26vh) * 0.69) * 2);
+            left: calc(calc(calc(100vw - 2 * 5vw) / 2) - calc(min(30vw, 26vh) * 0.69));
+            top: calc(calc(27vh + min(30vw, 26vh)) - calc(min(30vw, 26vh) * 0.69));
+        }
+
+    .avatar { width: 7vw; height: 7vw; }
+
+    .a1 { left: calc(calc(calc(100vw - 2 * 5vw) / 2) + min(30vw, 26vh) * (-0.2588) - 7vw / 2); top: calc(calc(27vh + min(30vw, 26vh)) + min(30vw, 26vh) * (-0.9659) - 7vw / 2); }
+
+    .a2 { left: calc(calc(calc(100vw - 2 * 5vw) / 2) + calc(min(30vw, 26vh) * 0.69) * (0.7071)  - 7vw / 2); top: calc(calc(27vh + min(30vw, 26vh)) + calc(min(30vw, 26vh) * 0.69) * (-0.7071)  - 7vw / 2); }
+
+    .a3 { left: calc(calc(calc(100vw - 2 * 5vw) / 2) + min(30vw, 26vh) * (0.9659)  - 7vw / 2); top: calc(calc(27vh + min(30vw, 26vh)) + min(30vw, 26vh) * (-0.2588)  - 7vw / 2); }
+
+    .a4 { left: calc(calc(calc(100vw - 2 * 5vw) / 2) + calc(min(30vw, 26vh) * 0.69) * (-0.8660) - 7vw / 2); top: calc(calc(27vh + min(30vw, 26vh)) + calc(min(30vw, 26vh) * 0.69) * (-0.5000) - 7vw / 2); }
+
+    .a5 { left: calc(calc(calc(100vw - 2 * 5vw) / 2) + min(30vw, 26vh) * (-0.9848) - 7vw / 2); top: calc(calc(27vh + min(30vw, 26vh)) + min(30vw, 26vh) * (-0.1736) - 7vw / 2); }
+
+    /* cards can be swiped sideways */
+        .cards-track {
+            width: 100%;
+            bottom: 0;
+            overflow-x: auto;
+            overflow-y: hidden;
+            padding: 50px 2vw 60px;
+            scrollbar-width: none;
+        }
+
+    .cards-track::-webkit-scrollbar { display: none; }
+
+    .testimonial-cards { gap: 1.5vw; }
+
+    .t-card { width: 25vw; height: max(24vh, 210px); margin-left: 1vw; padding: 1.8vh 1.8vw; flex: 0 0 auto; }
+
+    .t-card h4 { font-size: max(11.4px, min(1.9vw, 19.5px)); }
+
+    .t-card p { font-size: max(9.6px, min(1.6vw, 16.4px)); line-height: 1.5; }
+
+    .card-user img { width: 5vw; height: 5vw; }
+
+    .card-user h5 { font-size: max(9.6px, min(1.6vw, 16.4px)); }
+
+    .card-user span { font-size: max(8.4px, min(1.4vw, 14.3px)); }
+
+    /* ---- CONTACT ---- */
+        .contact-left { padding: 3.5vw; }
+
+    .contact-left h1 { font-size: max(16.8px, min(2.8vw, 28.7px)); }
+
+    .contact-card { padding: 2.4vw; border-radius: 30px; }
+
+    .contact-card img { height: 22vh; }
+
+    .contact-item { font-size: max(9.0px, min(1.5vw, 15.4px)); padding: 1.2vh 1vw; }
+
+    .contact-right { padding: 3.5vw; }
+
+    .contact-nav { gap: 2.6vw; font-size: max(9.9px, min(min(1.65vw, 3vh), 16.9px)); margin-bottom: 4vh; }
+
+    .contact-right h2 { font-size: max(15.6px, min(2.6vw, 26.6px)); }
+
+    .contact-right input,
+        .contact-right textarea { font-size: max(12.0px, min(2.0vw, 20.5px)); padding: 1.4vh 1.6vw; }
+
+    .contact-right textarea { height: 24vh; }
+
+    .contact-right button { font-size: max(12.0px, min(2.0vw, 20.5px)); padding: 1.8vh; }
+
+}
+
+/* ---- tablet held upright (portrait): contact page stacks top to bottom ---- */
+
+@media (min-width: 601px) and (max-width: 1024px) and (orientation: portrait) {
+
+    .slider6 {
+        display: flex;
+        flex-direction: column;
+        overflow-y: auto;
         overflow-x: hidden;
     }
 
-    .left,
-    .right {
-        width: 5vw;
-    }
-
-    /* ===== SLIDER 1 ===== */
-
-    .slider1 {
-        width: 32vw;
-        right: 5vw;
-    }
-
-    .slider1 .navbar {
-        height: 12vh;
-    }
-
-    .slider1 .navbar .menu {
-        font-size: clamp(0.75rem, 1.5vw, 1.2rem);
-    }
-
-    .slider1 .name {
-        font-size: clamp(2.2rem, 4.5vw, 3.5rem);
-        top: 16vh;
-        width: 85%;
-    }
-
-    .slider1 .head,
-    .slider1 .head1,
-    .slider1 .head2 {
-        font-size: clamp(1.3rem, 2.8vw, 2.3rem);
-        width: 85%;
-    }
-
-    .slider1 .head { top: 28vh; }
-    .slider1 .head1 { top: 35vh; }
-    .slider1 .head2 { top: 42vh; }
-
-    .slider1 .para {
-        font-size: clamp(0.85rem, 1.4vw, 1.2rem);
-        top: 58vh;
-        width: 88%;
-    }
-
-    .slider1 .btn {
-        top: 65vh;
-        font-size: clamp(0.7rem, 1vw, 0.95rem);
-        padding: clamp(8px, 1.2vh, 14px) clamp(12px, 1.5vw, 18px);
-    }
-
-    /* ===== SLIDER 2 ===== */
-
-    .slider2 {
-        width: 36vw;
-        right: 37vw;
-    }
-
-    .slider2 .navbar .menu {
-        font-size: clamp(0.72rem, 1.3vw, 1.15rem);
-        margin-top:25px;
-    }
-
-    .slider2 .name {
-        font-size: clamp(2.2rem, 4.5vw, 3.5rem);
-        top: 16vh;
-        left: 23vw;
-    }
-
-    .slider2 .head,
-    .slider2 .head1,
-    .slider2 .head2,
-    .slider2 .head3 {
-        font-size: clamp(1.3rem, 2.8vw, 2.3rem);
-        left: 24vw;
-    }
-
-    .slider2 .head { top: 28vh; }
-    .slider2 .head1 { top: 35vh; }
-    .slider2 .head2 { top: 42vh; }
-    .slider2 .head3 { top: 49vh; }
-
-    .slider2 .para {
-        font-size: clamp(0.85rem, 1.4vw, 1.2rem);
-        top: 58vh;
-        left: 25.5vw;
-    }
-
-    .slider2 .btn {
-        top: 65vh;
-        left: 19vw;
-          font-size: clamp(0.7rem, 1vw, 0.95rem);
-        padding: clamp(8px, 1.2vh, 14px) clamp(12px, 1.5vw, 18px);
-    }
-
-    /* ===== HOME STATE ===== */
-
-    #home:checked ~ .container .slider1 {
-        right: 5vw;
-    }
-
-    #home:checked ~ .container .slider2 {
-        right: 37vw;
-    }
-
-    #home:checked ~ .container .slider3 {
-        right: 73vw;
-    }
-
-    /* ===== ABOUT STATE ===== */
-
-    #about:checked ~ .container .slider1 {
-        right: -55vw;
-    }
-
-    #about:checked ~ .container .slider2 {
-        right: -8vw;
-    }
-
-    #about:checked ~ .container .slider3 {
-        right: 5vw;
-    }
-
-    /* ===== SLIDER 3 ===== */
-
-    .slider3 {
-        width: 90vw;
-        right: 73vw;
-    }
-
-    .slider3 .profile {
-        width: 350px;
-        height: 420px;
-        right: 3vw;
-        top: 25%;
-        display:none;
-    }
-
-    .topbar {
-        margin-top: 4vh;
-    }
-
-    .title-box {
-        width: clamp(180px, 22vw, 300px);
-        height: clamp(48px, 7.5vh, 70px);
-    }
-
-    .title-box h1 {
-        font-size: clamp(1.3rem, 2.5vw, 2rem);
-    }
-
-    .menu-bar {
-        margin-left: clamp(60px, 10vw, 180px);
-        gap: clamp(12px, 2vw, 26px);
-        font-size: clamp(0.8rem, 1.4vw, 1.4rem);
-    }
-
-    .about-container {
-        margin-top: 3.5vh;
-        margin-left:30px;
-    }
-
-    .about-left {
-        width: 58%;
-        margin-left: 2vw;
-    }
-
-    .about-left h2 {
-        font-size: clamp(1.6rem, 3.2vw, 2.6rem);
-        margin-bottom: 2vh;
-    }
-
-    .about-left p {
-        font-size: clamp(0.95rem, 1.7vw, 1.5rem);
-        line-height: clamp(1.9rem, 3.8vh, 2.8rem);
-        margin-bottom: 2vh;
-    }
-
-    .buttons {
-        gap: clamp(14px, 2vw, 26px);
-        margin-top: 2.5vh;
-    }
-
-    .cv-btn {
-        padding: clamp(10px, 1.2vh, 15px) clamp(18px, 2.2vw, 32px);
-        font-size: clamp(0.8rem, 1.1vw, 1.05rem);
-    }
-
-    .hire-btn {
-        padding: clamp(10px, 1.3vh, 16px) clamp(18px, 2.4vw, 34px);
-        font-size: clamp(0.8rem, 1.1vw, 1.05rem);
-    }
-
-    .skills-box {
-        margin-top: 2.5vh;
-        padding: clamp(14px, 2.2vh, 22px);
-        border-radius: 32px;
-        position:absolute;
-    }
-
-    .skills-box h3 {
-        font-size: clamp(0.9rem, 1.4vw, 1.25rem);
-        margin-bottom: 1.8vh;
-    }
-
-    .icons {
-        gap: clamp(12px, 1.6vw, 20px);
-    }
-
-    .icons img {
-        width: clamp(35px, 4vw, 52px);
-        height: clamp(35px, 4vw, 52px);
-    }
-
-    /* ===== SLIDER 4 — PROJECTS ===== */
-
-    .slider4 {
-        width: 90vw;
-        right: -90vw;
-    }
-
-    #project:checked ~ .container .slider4 {
-        right: 5vw;
-    }
-
-    #project:checked ~ .container .slider3 {
-        right: 95vw;
-    }
-
-    .project-top {
-        padding-top: 6vh;
-    }
-
-    .project-title {
-        width: clamp(180px, 22vw, 300px);
-        height: clamp(52px, 7.8vh, 75px);
-    }
-
-    .project-title h1 {
-        font-size: clamp(1.3rem, 2.5vw, 2rem);
-    }
-
-    .project-nav {
-        margin-left: clamp(70px, 11vw, 190px);
-        gap: clamp(14px, 2.8vw, 36px);
-    }
-
-    .project-nav label {
-        font-size: clamp(0.8rem, 1.4vw, 1.25rem);
-    }
-
-    .project-cards {
-        margin-top: clamp(40px, 10vh, 110px);
-        gap: clamp(18px, 2.8vw, 36px);
-    }
-
-    .card {
-        width: clamp(200px, 26vw, 280px);
-        height: clamp(240px, 40vh, 350px);
-    }
-
-    .card-top {
-        padding: clamp(12px, 2vh, 20px);
-    }
-
-    .card h2 {
-        font-size: clamp(1.1rem, 1.8vw, 1.65rem);
-        margin-bottom: clamp(10px, 1.8vh, 16px);
-    }
-
-    .card p {
-        font-size: clamp(0.8rem, 1.2vw, 1.08rem);
-        line-height: clamp(1.4rem, 2.8vh, 1.9rem);
-    }
-
-    .tags {
-        margin-top: clamp(12px, 2.2vh, 20px);
-        gap: clamp(6px, 1vw, 14px);
-    }
-
-    .tags span {
-        padding: clamp(6px, 1vh, 11px) clamp(10px, 1.2vw, 16px);
-        font-size: clamp(0.65rem, 0.95vw, 0.92rem);
-    }
-
-    .card-bottom h3 {
-        font-size: clamp(1.05rem, 1.6vw, 1.55rem);
-    }
-
-    /* ===== FRONTEND / BACKEND / DATABASE SLIDERS ===== */
-
-    .frontend-slider,
-    .backend-slider,
-    .database-slider {
-        left: 5vw;
-        width: 90vw;
-    }
-
-    .mark {
-        font-size: clamp(1.3rem, 2vw, 1.9rem);
-        top: 2vh;
-        right: 3vw;
-    }
-
-    /* ===== PROJECTS DETAILS ===== */
-
-    .projects-details {
-        width: 94%;
-        height: clamp(300px, 54vh, 500px);
-        margin: clamp(30px, 6vh, 80px) auto;
-    }
-
-    .project-wrapper {
-        width: clamp(110px, 12vw, 170px);
-    }
-
-    .project-wrapper:nth-child(1) { left: 0; }
-    .project-wrapper:nth-child(2) { left: calc(clamp(110px, 12vw, 170px) + 1.2%); }
-    .project-wrapper:nth-child(3) { left: calc((clamp(110px, 12vw, 170px) + 1.2%) * 2); }
-    .project-wrapper:nth-child(4) { left: calc((clamp(110px, 12vw, 170px) + 1.2%) * 3); }
-    .project-wrapper:nth-child(5) { left: calc((clamp(110px, 12vw, 170px) + 1.2%) * 4); }
-
-    #p1:checked ~ .container .project-wrapper:nth-child(1) { width: 47%; }
-    #p1:checked ~ .container .project-wrapper:nth-child(2) { left: 49%; }
-    #p1:checked ~ .container .project-wrapper:nth-child(3) { left: 60%; }
-    #p1:checked ~ .container .project-wrapper:nth-child(4) { left: 71%; }
-    #p1:checked ~ .container .project-wrapper:nth-child(5) { left: 82%; }
-
-    #p2:checked ~ .container .project-wrapper:nth-child(1) { width: 9%; }
-    #p2:checked ~ .container .project-wrapper:nth-child(2) { left: 10%; width: 47%; }
-    #p2:checked ~ .container .project-wrapper:nth-child(3) { left: 60%; }
-    #p2:checked ~ .container .project-wrapper:nth-child(4) { left: 71%; }
-    #p2:checked ~ .container .project-wrapper:nth-child(5) { left: 82%; }
-
-    #p3:checked ~ .container .project-wrapper:nth-child(1) { width: 9%; }
-    #p3:checked ~ .container .project-wrapper:nth-child(2) { width: 9%; left: 10%; }
-    #p3:checked ~ .container .project-wrapper:nth-child(3) { left: 20%; width: 47%; }
-    #p3:checked ~ .container .project-wrapper:nth-child(4) { left: 69%; }
-    #p3:checked ~ .container .project-wrapper:nth-child(5) { left: 80%; }
-
-    .before-card .heading {
-        font-size: clamp(0.95rem, 2vw, 1.9rem);
-    }
-
-    .before-card .number {
-        font-size: clamp(4.5rem, 8.5vw, 9rem);
-    }
-
-    .close-btn {
-        font-size: clamp(1.1rem, 1.6vw, 1.5rem);
-    }
-
-    .after-card {
-        padding: clamp(16px, 2.8vw, 32px);
-    }
-
-    .left-side {
-        width: 35%;
-    }
-
-    .project-img {
-        width: clamp(75px, 9.5vw, 135px);
-    }
-
-    .project-no {
-        font-size: clamp(4.5rem, 8.2vw, 9rem);
-    }
-
-    .right-side {
-        width: 62%;
-    }
-
-    .right-side h1 {
-        font-size: clamp(0.95rem, 1.65vw, 1.6rem);
-    }
-
-    .right-side p {
-        font-size: clamp(0.75rem, 1.05vw, 1.02rem);
-    }
-
-    .right-side h3 {
-        font-size: clamp(0.75rem, 1vw, 0.98rem);
-    }
-
-    .skill span {
-        width: clamp(65px, 8.5vw, 120px);
-        font-size: clamp(0.7rem, 0.92vw, 0.9rem);
-    }
-
-    /* ===== SLIDER 5 — TESTIMONIAL ===== */
-
-    .slider5 {
-        width: 90vw;
-        left: -90vw;
-    }
-
-    #testimonial:checked ~ .container .slider5 {
-        left: 5vw;
-    }
-
-    .testimonial-nav {
-        gap: clamp(16px, 3vw, 45px);
-        margin-top: 6vh;
-        font-size: clamp(0.85rem, 1.45vw, 1.4rem);
-    }
-
-    .slider5 h1 {
-        font-size: clamp(2.2rem, 4.8vw, 3.8rem);
-        margin-top: clamp(70px, 20vh, 200px);
-        letter-spacing: clamp(3px, 0.9vw, 11px);
-    }
-
-    .outer {
-        width: clamp(380px, 52vw, 750px);
-        height: clamp(380px, 52vw, 750px);
-        left: clamp(100px, 16vw, 200px);
-        top: clamp(110px, 21vh, 190px);
-    }
-
-    .inner {
-        width: clamp(250px, 36vw, 520px);
-        height: clamp(250px, 36vw, 520px);
-        left: clamp(180px, 24vw, 320px);
-        top: clamp(180px, 33vh, 300px);
-    }
-
-    .avatar {
-        width: clamp(45px, 5.5vw, 72px);
-        height: clamp(45px, 5.5vw, 72px);
-    }
-
-    .a1 { top: clamp(130px, 24vh, 220px); left: clamp(240px, 36vw, 500px); }
-    .a2 { top: clamp(210px, 37vh, 360px); left: clamp(450px, 54vw, 750px); }
-    .a3 { top: clamp(340px, 54vh, 560px); left: clamp(480px, 57vw, 800px); }
-    .a4 { top: clamp(250px, 42vh, 420px); left: clamp(170px, 22vw, 300px); }
-    .a5 { top: clamp(400px, 64vh, 660px); left: clamp(200px, 25vw, 350px); }
-
-    .cards-track {
-        bottom: clamp(35px, 7.5vh, 85px);
-    }
-
-    .testimonial-cards {
-        gap: clamp(22px, 3.8vw, 50px);
-    }
-
-    .t-card {
-        width: clamp(170px, 16vw, 220px);
-        height: clamp(210px, 32vh, 290px);
-        padding: clamp(14px, 2.2vh, 20px);
-    }
-
-    .t-card h4 {
-        font-size: clamp(0.82rem, 1.15vw, 1.08rem);
-    }
-
-    .t-card p {
-        font-size: clamp(0.7rem, 0.98vw, 0.96rem);
-        line-height: clamp(1.25rem, 2.4vh, 1.65rem);
-    }
-
-    .card-user img {
-        width: clamp(32px, 3.8vw, 48px);
-        height: clamp(32px, 3.8vw, 48px);
-    }
-
-    .card-user h5 {
-        font-size: clamp(0.75rem, 1.05vw, 0.98rem);
-    }
-
-    .card-user span {
-        font-size: clamp(0.68rem, 0.92vw, 0.88rem);
-    }
-
-    /* ===== SLIDER 6 — CONTACT ===== */
-
-    .slider6 {
-        width: 90vw;
-        left: 5vw;
-    }
-
-    .contact-left {
-        width: 38%;
-        padding: clamp(22px, 3.9vw, 50px);
-    }
-
-    .contact-left h1 {
-        font-size: clamp(1.2rem, 2.6vw, 2.5rem);
-        letter-spacing: clamp(3px, 0.7vw, 9px);
-        margin-bottom: clamp(18px, 4.5vh, 55px);
-        margin-left:13px;
-    }
+    .contact-left,
+    .contact-right {
+        position: relative;
+        top: auto;
+        width: 100%;
+        height: auto;
+        flex: 0 0 auto;
+    }
+
+    .contact-left  { left: -120vw; padding: 5vw 6vw 4vw; }
+    .contact-right { right: -120vw; padding: 5vw 6vw 8vw; }
+
+    .contact-left h1  { font-size: max(25.2px, min(4.2vw, 43.0px)); margin-bottom: 3vh; }
 
     .contact-card {
-        border-radius: 35px;
-        padding: clamp(16px, 2.8vw, 32px);
-        margin-left:20px;
+        display: grid;
+        grid-template-columns: 34% 1fr;
+        column-gap: 4vw;
+        align-items: center;
+        padding: 3.5vw;
     }
+    .contact-card img  { grid-row: 1 / span 4; height: 26vw; }
+    .contact-item      { font-size: max(13.8px, min(2.3vw, 23.6px)); margin-top: 1vh; padding: 1.3vh 1.6vw; }
+    .contact-item:first-of-type { margin-top: 0; }
 
-    .contact-card img {
-        height: clamp(160px, 26vh, 270px);
-    }
+    .contact-nav       { font-size: max(12.6px, min(2.1vw, 21.5px)); gap: 3.2vw; justify-content: flex-start; }
+    .contact-right h2  { font-size: max(21.6px, min(3.6vw, 36.9px)); }
+    .contact-right input,
+    .contact-right textarea { font-size: max(15.6px, min(2.6vw, 26.6px)); padding: 1.6vh 2.4vw; }
+    .contact-right textarea { height: 20vh; }
+    .contact-right button   { font-size: max(15.6px, min(2.6vw, 26.6px)); }
+}
 
-    .contact-item {
-        padding: clamp(5px, 1.4vh, 3px);
-        margin-top: clamp(7px, 1.2vh, 11px);
-        font-size: clamp(0.65rem, 1.15vw, 1.25rem);
-        border-radius: 11px;
+/* ---------------------------------------------------------------------
+   4. MOBILE  (600px and below)
+   --------------------------------------------------------------------- */
 
-    }
+@media (max-width: 600px) {
+    .container .left,
+        .container .right {
+            width: 0vw;
+        }
 
-    .contact-right {
-        width: 62%;
-        padding: clamp(32px, 5.5vw, 65px);
-    }
+    /* ---- slider sizes + resting positions ---- */
+        .slider1 { width: 34vw; right: 0vw; }
 
-    .contact-nav {
-        gap:10px;
-        font-size: clamp(0.70rem, 1.4vw, 1.25rem);
-        margin-bottom: clamp(18px, 4.2vh, 45px);
-    }
+    .slider2 { width: 32vw; right: calc(0vw + 34vw); }
 
-    .contact-right h2 {
-        font-size: clamp(1.05rem, 1.8vw, 1.65rem);
-        margin-bottom: clamp(12px, 2.2vh, 22px);
-    }
+    .slider3 { width: calc(100vw - 2 * 0vw); right: calc(0vw + 34vw + 32vw); }
 
-    .contact-right form {
-        gap: clamp(14px, 2.8vh, 28px);
-    }
+    .slider4 { width: calc(100vw - 2 * 0vw); right: calc(-1 * calc(100vw - 2 * 0vw)); }
+
+    .slider5 { width: calc(100vw - 2 * 0vw); left: calc(-1 * calc(100vw - 2 * 0vw)); }
+
+    .slider6 { width: calc(100vw - 2 * 0vw); left: 0vw; }
+
+    .frontend-slider,
+        .backend-slider,
+        .database-slider {
+            left: 0vw;
+            width: calc(100vw - 2 * 0vw);
+        }
+
+    /* ---- slide states (same logic as before, using the variables) ---- */
+        #home:checked ~ .container .slider1 { right: 0vw; }
+
+    #home:checked ~ .container .slider2 { right: calc(0vw + 34vw); }
+
+    #home:checked ~ .container .slider3 { right: calc(0vw + 34vw + 32vw); }
+
+    #about:checked ~ .container .slider1 { right: calc(-1 * 34vw - 20vw); }
+
+    #about:checked ~ .container .slider2 { right: -10vw; }
+
+    #about:checked ~ .container .slider3 { right: 0vw; }
+
+    #project:checked ~ .container .slider4 { right: 0vw; }
+
+    #project:checked ~ .container .slider3 { right: calc(100vw - 0vw); }
+
+    #home:checked ~ .container .slider4,
+        #about:checked ~ .container .slider4 { right: calc(-1 * calc(100vw - 2 * 0vw)); }
+
+    #testimonial:checked ~ .container .slider5 { left: 0vw; }
+
+    /* ---- HOME photo ---- */
+        .slider3 .profile {
+            width: 34vw;
+            height: 47vw;
+            top: 28vh;
+        }
+
+    .slider1 .navbar,
+        .slider2 .navbar {
+            height: 9vh;
+        }
+
+    .slider1 .navbar .menu,
+        .slider2 .navbar .menu {
+            width: auto;
+            flex: 1 1 auto;
+            height: 9vh;
+            font-size: max(7.5px, min(2.35vw, 14.1px));
+            white-space: nowrap;
+        }
+
+    .slider1 .name,
+        .slider2 .name {
+            font-size: calc(max(17.3px, min(min(5.4vw, 6.4vh), 32.4px)) * 1.5);
+            top: 29vh;
+            height: auto;
+            width: auto;
+            white-space: nowrap;
+            line-height: 1.15;
+        }
+
+    .slider1 .head,  .slider2 .head,
+        .slider1 .head1, .slider2 .head1,
+        .slider1 .head2, .slider2 .head2,
+        .slider2 .head3 {
+            font-size: max(17.3px, min(min(5.4vw, 6.4vh), 32.4px));
+            height: auto;
+            width: auto;
+            white-space: nowrap;
+            line-height: 1.15;
+        }
+
+    .slider1 .head,  .slider2 .head { top: calc(29vh + calc(max(17.3px, min(min(5.4vw, 6.4vh), 32.4px)) * 1.5) * 1.7); }
+
+    .slider1 .head1, .slider2 .head1 { top: calc(calc(29vh + calc(max(17.3px, min(min(5.4vw, 6.4vh), 32.4px)) * 1.5) * 1.7) + calc(max(17.3px, min(min(5.4vw, 6.4vh), 32.4px)) * 1.6)); }
+
+    .slider1 .head2, .slider2 .head2 { top: calc(calc(29vh + calc(max(17.3px, min(min(5.4vw, 6.4vh), 32.4px)) * 1.5) * 1.7) + calc(max(17.3px, min(min(5.4vw, 6.4vh), 32.4px)) * 1.6) * 2); }
+
+    .slider2 .head3 { top: calc(calc(29vh + calc(max(17.3px, min(min(5.4vw, 6.4vh), 32.4px)) * 1.5) * 1.7) + calc(max(17.3px, min(min(5.4vw, 6.4vh), 32.4px)) * 1.6) * 3); }
+
+    .slider2 .name { left: calc(32vw - calc(max(17.3px, min(min(5.4vw, 6.4vh), 32.4px)) * 1.5) * 2.85); }
+
+    .slider2 .head,
+        .slider2 .head1,
+        .slider2 .head2,
+        .slider2 .head3 { left: calc(32vw - max(17.3px, min(min(5.4vw, 6.4vh), 32.4px)) * 4.36); }
+
+    .slider1 .para,
+        .slider2 .para {
+            font-size: calc(max(17.3px, min(min(5.4vw, 6.4vh), 32.4px)) * 0.63);
+            top: calc(calc(29vh + calc(max(17.3px, min(min(5.4vw, 6.4vh), 32.4px)) * 1.5) * 1.7) + calc(max(17.3px, min(min(5.4vw, 6.4vh), 32.4px)) * 1.6) * 4.2);
+            height: auto;
+            width: auto;
+            white-space: nowrap;
+        }
+
+    .slider2 .para { left: auto; right: calc(calc(max(17.3px, min(min(5.4vw, 6.4vh), 32.4px)) * 0.63) * 0.3); }
+
+    .slider1 .btn,
+        .slider2 .btn {
+            top: calc(calc(29vh + calc(max(17.3px, min(min(5.4vw, 6.4vh), 32.4px)) * 1.5) * 1.7) + calc(max(17.3px, min(min(5.4vw, 6.4vh), 32.4px)) * 1.6) * 5.3);
+            font-size: calc(max(17.3px, min(min(5.4vw, 6.4vh), 32.4px)) * 0.5);
+            padding: calc(calc(max(17.3px, min(min(5.4vw, 6.4vh), 32.4px)) * 0.5) * 0.9) calc(calc(max(17.3px, min(min(5.4vw, 6.4vh), 32.4px)) * 0.5) * 1.6);
+            white-space: nowrap;
+            margin-left: 0;
+            line-height: 1.2;
+        }
+
+    .slider2 .btn { left: auto; right: 0.8vw; }
+
+    .slider1 .btn { left: 0.8vw; }
+
+    /* panels that can be taller than the screen scroll inside themselves */
+        .slider3,
+        .slider4 {
+            overflow-y: auto;
+            overflow-x: hidden;
+        }
+
+    /* ---- ABOUT ---- */
+        .topbar {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 2.5vh;
+            margin-top: 4vh;
+        }
+
+    .title-box { width: 46vw; height: 50px; }
+
+    .title-box h1 { font-size: max(17.3px, min(5.4vw, 32.4px)); }
+
+    .menu-bar { margin-left: 4vw; gap: 2.2vw; font-size: max(9.0px, min(2.8vw, 16.8px)); }
+
+    .about-container { margin-top: 3vh; padding-bottom: 6vh; }
+
+    .about-left { width: 62%; margin-left: 4vw; }
+
+    .about-left h2 { font-size: max(22.4px, min(7.0vw, 42.0px)); margin-bottom: 1.5vh; }
+
+    .about-left p { font-size: max(11.2px, min(3.5vw, 21.0px)); line-height: 1.6; margin-bottom: 1.5vh; }
+
+    .buttons { gap: 2.5vw; margin-top: 2.5vh; flex-wrap: wrap; }
+
+    .cv-btn { font-size: max(9.6px, min(3.0vw, 18.0px)); padding: 1.3vh 4vw; }
+
+    .hire-btn { font-size: max(9.6px, min(3.0vw, 18.0px)); padding: 1.1vh 4vw; border-width: 2px; }
+
+    .skills-box { margin-top: 3vh; border-width: 3px; border-radius: 22px; padding: 1.6vh 3vw; }
+
+    .skills-box h3 { font-size: max(11.5px, min(3.6vw, 21.6px)); margin-bottom: 1.2vh; }
+
+    .icons { gap: 2.2vw; }
+
+    .icons img { width: 7.2vw; height: 7.2vw; }
+
+    /* ---- PROJECTS ---- */
+        .project-top {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 2.5vh;
+            padding-top: 5vh;
+        }
+
+    .project-title { width: 46vw; height: 50px; }
+
+    .project-title h1 { font-size: max(17.3px, min(5.4vw, 32.4px)); }
+
+    .project-nav { margin-left: 4vw; gap: 2.4vw; }
+
+    .project-nav label { font-size: max(9.0px, min(2.8vw, 16.8px)); }
+
+    .project-cards {
+            flex-direction: column;
+            align-items: center;
+            margin-top: 4vh;
+            gap: 4vw;
+            padding-bottom: 6vh;
+        }
+
+    .card { width: 88vw; height: auto; }
+
+    .card-top { height: auto; min-height: 150px; padding: 4vw; }
+
+    .card h2 { font-size: max(16.0px, min(5.0vw, 30.0px)); margin-bottom: 1vh; }
+
+    .card p { font-size: max(11.5px, min(3.6vw, 21.6px)); line-height: 1.5; }
+
+    .tags { gap: 1.6vw; margin-top: 1.6vh; }
+
+    .tags span { font-size: max(9.6px, min(3.0vw, 18.0px)); padding: 0.6vh 2.6vw; }
+
+    .card-bottom { height: 56px; padding: 0 4vw; }
+
+    .card-bottom h3 { font-size: max(14.1px, min(4.4vw, 26.4px)); }
+
+    .card-bottom .open-btn { font-size: max(19.2px, min(6.0vw, 36.0px)); width: 12vw; height: 40px; }
+
+    /* ---- PROJECT DETAILS : cards sit in a 2-column grid; the opened card
+                spreads over the full width ---- */
+        .frontend-slider,
+        .backend-slider,
+        .database-slider {
+            overflow-y: auto;
+            overflow-x: hidden;
+        }
+
+    .mark { font-size: max(19.2px, min(6.0vw, 36.0px)); padding: 2vh 4vw; display: inline-block; cursor: pointer; }
+
+    .projects-details {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3vw;
+            width: 92%;
+            height: auto;
+            margin: 2vh auto 6vh;
+            align-items: start;
+        }
+
+    .project-wrapper,
+        .project-wrapper:nth-child(n),
+        #p1:checked ~ .container .project-wrapper:nth-child(n),
+        #p2:checked ~ .container .project-wrapper:nth-child(n),
+        #p3:checked ~ .container .project-wrapper:nth-child(n) {
+            position: relative;
+            left: 0;
+            width: 100%;
+            height: 66vw;
+        }
+
+    /* the two empty placeholder cards are not shown on phones */
+        .project-wrapper:nth-child(4),
+        .project-wrapper:nth-child(5) { display: none; }
+
+    #p1:checked ~ .container .project-wrapper:nth-child(1),
+        #p2:checked ~ .container .project-wrapper:nth-child(2),
+        #p3:checked ~ .container .project-wrapper:nth-child(3) {
+            grid-column: 1 / -1;
+            height: 98vw;
+        }
+
+    .before-card .heading { font-size: max(13.4px, min(4.2vw, 25.2px)); padding: 1.2vw 2vw; }
+
+    .before-card .number { font-size: max(51.2px, min(16.0vw, 96.0px)); }
+
+    .close-btn { font-size: max(16.0px, min(5.0vw, 30.0px)); }
+
+    .after-card { padding: 4vw; }
+
+    .project-img { width: 22vw; }
+
+    .project-no { font-size: max(70.4px, min(22.0vw, 132.0px)); }
+
+    .right-side h1 { font-size: max(14.7px, min(4.6vw, 27.6px)); }
+
+    .right-side p { font-size: max(9.9px, min(3.1vw, 18.6px)); margin-bottom: 1.2vh; }
+
+    .right-side h3 { font-size: max(10.2px, min(3.2vw, 19.2px)); margin: 1.2vh 0; }
+
+    .skill { gap: 2vw; margin-bottom: 1vh; }
+
+    .skill span { font-size: max(9.6px, min(3.0vw, 18.0px)); width: 16vw; }
+
+    .bar { height: 7px; }
+
+    /* ---- TESTIMONIAL ---- */
+        .testimonial-nav { margin-top: 4vh; gap: 2.6vw; font-size: max(8.6px, min(2.7vw, 16.2px)); }
+
+    .slider5 h1 { margin-top: 5vh; font-size: max(24.3px, min(7.6vw, 45.6px)); letter-spacing: 0.8vw; }
+
+    .outer {
+            width: calc(40vw * 2);
+            height: calc(40vw * 2);
+            left: calc(50vw - 40vw);
+            top: calc(calc(22vh + 40vw) - 40vw);
+            border-width: 4px;
+        }
+
+    .inner {
+            width: calc(calc(40vw * 0.69) * 2);
+            height: calc(calc(40vw * 0.69) * 2);
+            left: calc(50vw - calc(40vw * 0.69));
+            top: calc(calc(22vh + 40vw) - calc(40vw * 0.69));
+            border-width: 4px;
+        }
+
+    .avatar { width: 11vw; height: 11vw; }
+
+    .a1 { left: calc(50vw + 40vw * (-0.2588) - 11vw / 2); top: calc(calc(22vh + 40vw) + 40vw * (-0.9659) - 11vw / 2); }
+
+    .a2 { left: calc(50vw + calc(40vw * 0.69) * (0.7071)  - 11vw / 2); top: calc(calc(22vh + 40vw) + calc(40vw * 0.69) * (-0.7071)  - 11vw / 2); }
+
+    .a3 { left: calc(50vw + 40vw * (0.9659)  - 11vw / 2); top: calc(calc(22vh + 40vw) + 40vw * (-0.2588)  - 11vw / 2); }
+
+    .a4 { left: calc(50vw + calc(40vw * 0.69) * (-0.8660) - 11vw / 2); top: calc(calc(22vh + 40vw) + calc(40vw * 0.69) * (-0.5000) - 11vw / 2); }
+
+    .a5 { left: calc(50vw + 40vw * (-0.9848) - 11vw / 2); top: calc(calc(22vh + 40vw) + 40vw * (-0.1736) - 11vw / 2); }
+
+    /* cards can be swiped sideways */
+        .cards-track {
+            width: 100%;
+            bottom: 0;
+            overflow-x: auto;
+            overflow-y: hidden;
+            padding: 46px 4vw 54px;
+            scrollbar-width: none;
+        }
+
+    .cards-track::-webkit-scrollbar { display: none; }
+
+    .testimonial-cards { gap: 3vw; }
+
+    .t-card { width: 62vw; height: max(21vh, 180px); margin-left: 2vw; padding: 3.5vw; flex: 0 0 auto; }
+
+    .t-card h4 { font-size: max(12.2px, min(3.8vw, 22.8px)); }
+
+    .t-card p { font-size: max(10.9px, min(3.4vw, 20.4px)); line-height: 1.5; }
+
+    .card-user img { width: 10vw; height: 10vw; }
+
+    .card-user h5 { font-size: max(10.9px, min(3.4vw, 20.4px)); }
+
+    .card-user span { font-size: max(9.6px, min(3.0vw, 18.0px)); }
+
+    /* ---- CONTACT : stacked top to bottom ---- */
+        .slider6 {
+            display: flex;
+            flex-direction: column;
+            overflow-y: auto;
+            overflow-x: hidden;
+        }
+
+    .contact-left,
+        .contact-right {
+            position: relative;
+            top: auto;
+            width: 100%;
+            height: auto;
+            flex: 0 0 auto;
+        }
+
+    .contact-left { left: -120vw; padding: 6vw 6vw 5vw; }
+
+    .contact-right { right: -120vw; padding: 6vw 6vw 10vw; }
+
+    .contact-left h1 { font-size: max(19.2px, min(6.0vw, 36.0px)); letter-spacing: 1vw; margin-bottom: 2.5vh; }
+
+    .contact-card { padding: 4vw; border-radius: 28px; }
+
+    .contact-card img { height: 22vh; }
+
+    .contact-item { font-size: max(10.6px, min(3.3vw, 19.8px)); padding: 1.3vh 3vw; margin-top: 1vh; }
+
+    .contact-item a { word-break: break-all; }
+
+    .contact-nav { font-size: max(9.3px, min(2.9vw, 17.4px)); gap: 2.4vw; justify-content: flex-start; margin-bottom: 3vh; }
+
+    .contact-right h2 { font-size: max(16.0px, min(5.0vw, 30.0px)); }
 
     .contact-right input,
-    .contact-right textarea {
-        padding: clamp(11px, 1.6vh, 16px);
-        font-size: clamp(0.95rem, 1.6vw, 1.45rem);
-        border-radius: 18px;
-    }
+        .contact-right textarea { font-size: max(12.8px, min(4.0vw, 24.0px)); padding: 1.5vh 4vw; }
 
-    .contact-right textarea {
-        height: clamp(130px, 26vh, 270px);
-    }
+    .contact-right textarea { height: 18vh; }
 
-    .contact-right button {
-        padding: clamp(13px, 2.2vh, 22px);
-        font-size: clamp(0.95rem, 1.5vw, 1.35rem);
-        border-radius: 18px;
-    }
+    .contact-right button { font-size: max(12.8px, min(4.0vw, 24.0px)); padding: 1.6vh; }
 
-    /* ===== CONTACT STATE ===== */
+}
 
-    #contact:checked ~ .container .slider1 { right: -55vw; }
-    #contact:checked ~ .container .slider2 { right: -105vw; }
-    #contact:checked ~ .container .slider3 { right: -155vw; }
-    #contact:checked ~ .container .slider4 { right: -155vw; }
-    #contact:checked ~ .container .slider5 { left: -155vw; }
+/* ---------------------------------------------------------------------
+   5. SHORT LANDSCAPE SCREENS  (phones turned sideways, small tablets)
+   --------------------------------------------------------------------- */
+
+@media (min-width: 601px) and (max-width: 1024px) and (max-height: 520px) and (orientation: landscape) {
+    .container .left,
+        .container .right {
+            width: 5vw;
+        }
+
+    /* ---- slider sizes + resting positions ---- */
+        .slider1 { width: 26vw; right: 5vw; }
+
+    .slider2 { width: 27vw; right: calc(5vw + 26vw); }
+
+    .slider3 { width: calc(100vw - 2 * 5vw); right: calc(5vw + 26vw + 27vw); }
+
+    .slider4 { width: calc(100vw - 2 * 5vw); right: calc(-1 * calc(100vw - 2 * 5vw)); }
+
+    .slider5 { width: calc(100vw - 2 * 5vw); left: calc(-1 * calc(100vw - 2 * 5vw)); }
+
+    .slider6 { width: calc(100vw - 2 * 5vw); left: 5vw; }
+
+    .frontend-slider,
+        .backend-slider,
+        .database-slider {
+            left: 5vw;
+            width: calc(100vw - 2 * 5vw);
+        }
+
+    /* ---- slide states (same logic as before, using the variables) ---- */
+        #home:checked ~ .container .slider1 { right: 5vw; }
+
+    #home:checked ~ .container .slider2 { right: calc(5vw + 26vw); }
+
+    #home:checked ~ .container .slider3 { right: calc(5vw + 26vw + 27vw); }
+
+    #about:checked ~ .container .slider1 { right: calc(-1 * 26vw - 20vw); }
+
+    #about:checked ~ .container .slider2 { right: -10vw; }
+
+    #about:checked ~ .container .slider3 { right: 5vw; }
+
+    #project:checked ~ .container .slider4 { right: 5vw; }
+
+    #project:checked ~ .container .slider3 { right: calc(100vw - 5vw); }
+
+    #home:checked ~ .container .slider4,
+        #about:checked ~ .container .slider4 { right: calc(-1 * calc(100vw - 2 * 5vw)); }
+
+    #testimonial:checked ~ .container .slider5 { left: 5vw; }
+
+    /* ---- HOME photo ---- */
+        .slider3 .profile {
+            width: 36vw;
+            height: min(52vw, 80vh);
+            top: 14vh;
+        }
+
+    .slider1 .navbar,
+        .slider2 .navbar {
+            height: 12vh;
+        }
+
+    .slider1 .navbar .menu,
+        .slider2 .navbar .menu {
+            width: auto;
+            flex: 1 1 auto;
+            height: 12vh;
+            font-size: max(7.9px, min(min(1.65vw, 3.6vh), 16.9px));
+            white-space: nowrap;
+        }
+
+    .slider1 .name,
+        .slider2 .name {
+            font-size: calc(max(17.8px, min(min(3.7vw, 6.1vh), 37.9px)) * 1.5);
+            top: 13vh;
+            height: auto;
+            width: auto;
+            white-space: nowrap;
+            line-height: 1.15;
+        }
+
+    .slider1 .head,  .slider2 .head,
+        .slider1 .head1, .slider2 .head1,
+        .slider1 .head2, .slider2 .head2,
+        .slider2 .head3 {
+            font-size: max(17.8px, min(min(3.7vw, 6.1vh), 37.9px));
+            height: auto;
+            width: auto;
+            white-space: nowrap;
+            line-height: 1.15;
+        }
+
+    .slider1 .head,  .slider2 .head { top: calc(13vh + calc(max(17.8px, min(min(3.7vw, 6.1vh), 37.9px)) * 1.5) * 1.7); }
+
+    .slider1 .head1, .slider2 .head1 { top: calc(calc(13vh + calc(max(17.8px, min(min(3.7vw, 6.1vh), 37.9px)) * 1.5) * 1.7) + calc(max(17.8px, min(min(3.7vw, 6.1vh), 37.9px)) * 1.6)); }
+
+    .slider1 .head2, .slider2 .head2 { top: calc(calc(13vh + calc(max(17.8px, min(min(3.7vw, 6.1vh), 37.9px)) * 1.5) * 1.7) + calc(max(17.8px, min(min(3.7vw, 6.1vh), 37.9px)) * 1.6) * 2); }
+
+    .slider2 .head3 { top: calc(calc(13vh + calc(max(17.8px, min(min(3.7vw, 6.1vh), 37.9px)) * 1.5) * 1.7) + calc(max(17.8px, min(min(3.7vw, 6.1vh), 37.9px)) * 1.6) * 3); }
+
+    .slider2 .name { left: calc(27vw - calc(max(17.8px, min(min(3.7vw, 6.1vh), 37.9px)) * 1.5) * 2.85); }
+
+    .slider2 .head,
+        .slider2 .head1,
+        .slider2 .head2,
+        .slider2 .head3 { left: calc(27vw - max(17.8px, min(min(3.7vw, 6.1vh), 37.9px)) * 4.36); }
+
+    .slider1 .para,
+        .slider2 .para {
+            font-size: calc(max(17.8px, min(min(3.7vw, 6.1vh), 37.9px)) * 0.56);
+            top: calc(calc(13vh + calc(max(17.8px, min(min(3.7vw, 6.1vh), 37.9px)) * 1.5) * 1.7) + calc(max(17.8px, min(min(3.7vw, 6.1vh), 37.9px)) * 1.6) * 4.2);
+            height: auto;
+            width: auto;
+            white-space: nowrap;
+        }
+
+    .slider2 .para { left: auto; right: calc(calc(max(17.8px, min(min(3.7vw, 6.1vh), 37.9px)) * 0.56) * 0.3); }
+
+    .slider1 .btn,
+        .slider2 .btn {
+            top: calc(calc(13vh + calc(max(17.8px, min(min(3.7vw, 6.1vh), 37.9px)) * 1.5) * 1.7) + calc(max(17.8px, min(min(3.7vw, 6.1vh), 37.9px)) * 1.6) * 5.3);
+            font-size: calc(max(17.8px, min(min(3.7vw, 6.1vh), 37.9px)) * 0.48);
+            padding: calc(calc(max(17.8px, min(min(3.7vw, 6.1vh), 37.9px)) * 0.48) * 0.9) calc(calc(max(17.8px, min(min(3.7vw, 6.1vh), 37.9px)) * 0.48) * 1.6);
+            white-space: nowrap;
+            margin-left: 0;
+            line-height: 1.2;
+        }
+
+    .slider2 .btn { left: auto; right: 0.8vw; }
+
+    .slider1 .btn { left: 0.8vw; }
+
+    /* panels that can be taller than the screen scroll inside themselves */
+        .slider3,
+        .slider4 {
+            overflow-y: auto;
+            overflow-x: hidden;
+        }
+
+    /* ---- ABOUT ---- */
+        .topbar { margin-top: 5vh; }
+
+    .title-box { width: 24vw; height: max(7vh, 46px); }
+
+    .title-box h1 { font-size: max(19.2px, min(3.2vw, 32.8px)); }
+
+    .menu-bar { margin-left: 4vw; gap: 2.4vw; font-size: max(7.9px, min(min(1.65vw, 3.6vh), 16.9px)); }
+
+    .about-container { margin-top: 5vh; }
+
+    .about-left { width: 54%; margin-left: 3vw; }
+
+    .about-left h2 { font-size: max(26.4px, min(4.4vw, 45.1px)); margin-bottom: 2vh; }
+
+    .about-left p { font-size: max(13.2px, min(2.2vw, 22.5px)); line-height: 1.65; margin-bottom: 2vh; }
+
+    .buttons { gap: 2.5vw; margin-top: 3vh; }
+
+    .cv-btn { font-size: max(12.0px, min(2.0vw, 20.5px)); padding: 1.6vh 3.6vw; }
+
+    .hire-btn { font-size: max(12.0px, min(2.0vw, 20.5px)); padding: 1.4vh 3.6vw; border-width: 3px; }
+
+    .skills-box { margin-top: 4vh; border-width: 3px; border-radius: 28px; padding: 2vh 2.2vw; }
+
+    .skills-box h3 { font-size: max(13.8px, min(2.3vw, 23.6px)); margin-bottom: 1.5vh; }
+
+    .icons { gap: 1.8vw; }
+
+    .icons img { width: 5vw; height: 5vw; }
+
+    /* ---- PROJECTS ---- */
+        .project-top { padding-top: 6vh; }
+
+    .project-title { width: 24vw; height: max(7vh, 46px); }
+
+    .project-title h1 { font-size: max(19.2px, min(3.2vw, 32.8px)); }
+
+    .project-nav { gap: 2.4vw; margin-left: 5vw; }
+
+    .project-nav label { font-size: max(7.9px, min(min(1.65vw, 3.6vh), 16.9px)); }
+
+    .project-cards { margin-top: 13vh; gap: 2.5vw; padding: 0 2vw; }
+
+    .card { width: 27vw; height: max(38vh, 340px); }
+
+    .card h2 { font-size: max(15.0px, min(2.5vw, 25.6px)); margin-bottom: 1.2vh; }
+
+    .card p { font-size: max(10.8px, min(1.8vw, 18.4px)); line-height: 1.5; }
+
+    .card-top { padding: 2vh 1.8vw; }
+
+    .tags { gap: 0.8vw; margin-top: 1.6vh; }
+
+    .tags span { font-size: max(8.7px, min(1.45vw, 14.8px)); padding: 0.6vh 1.2vw; }
+
+    .card-bottom h3 { font-size: max(13.8px, min(2.3vw, 23.6px)); }
+
+    .card-bottom .open-btn { font-size: max(18.0px, min(3.0vw, 30.7px)); width: 6vw; }
+
+    .mark { font-size: max(20.4px, min(3.4vw, 34.8px)); padding: 1.5vh 2vw; display: inline-block; cursor: pointer; }
+
+    .projects-details { height: min(54vh, 78vw); margin: 4vh auto; }
+
+    .before-card .heading { font-size: max(12.0px, min(2.0vw, 20.5px)); }
+
+    .before-card .number { font-size: max(48.1px, min(8.0vw, 81.9px)); }
+
+    .after-card { padding: 2.2vw; }
+
+    .project-img { width: 11vw; }
+
+    .project-no { font-size: max(54.1px, min(9.0vw, 92.2px)); }
+
+    .right-side h1 { font-size: max(14.4px, min(2.4vw, 24.6px)); }
+
+    .right-side p { font-size: max(9.3px, min(1.55vw, 15.9px)); }
+
+    .right-side h3 { font-size: max(9.6px, min(1.6vw, 16.4px)); }
+
+    .skill span { font-size: max(9.0px, min(1.5vw, 15.4px)); width: 9vw; }
+
+    /* ---- TESTIMONIAL ---- */
+        .testimonial-nav { margin-top: 5vh; gap: 3.4vw; font-size: max(7.9px, min(min(1.65vw, 3.6vh), 16.9px)); }
+
+    .slider5 h1 { margin-top: 6vh; font-size: max(33.7px, min(5.6vw, 57.3px)); letter-spacing: 1vw; }
+
+    .outer {
+            width: calc(19vh * 2);
+            height: calc(19vh * 2);
+            left: calc(calc(calc(100vw - 2 * 5vw) / 2) - 19vh);
+            top: calc(calc(17vh + 19vh) - 19vh);
+        }
+
+    .inner {
+            width: calc(calc(19vh * 0.69) * 2);
+            height: calc(calc(19vh * 0.69) * 2);
+            left: calc(calc(calc(100vw - 2 * 5vw) / 2) - calc(19vh * 0.69));
+            top: calc(calc(17vh + 19vh) - calc(19vh * 0.69));
+        }
+
+    .avatar { width: 9vh; height: 9vh; }
+
+    .a1 { left: calc(calc(calc(100vw - 2 * 5vw) / 2) + 19vh * (-0.2588) - 9vh / 2); top: calc(calc(17vh + 19vh) + 19vh * (-0.9659) - 9vh / 2); }
+
+    .a2 { left: calc(calc(calc(100vw - 2 * 5vw) / 2) + calc(19vh * 0.69) * (0.7071)  - 9vh / 2); top: calc(calc(17vh + 19vh) + calc(19vh * 0.69) * (-0.7071)  - 9vh / 2); }
+
+    .a3 { left: calc(calc(calc(100vw - 2 * 5vw) / 2) + 19vh * (0.9659)  - 9vh / 2); top: calc(calc(17vh + 19vh) + 19vh * (-0.2588)  - 9vh / 2); }
+
+    .a4 { left: calc(calc(calc(100vw - 2 * 5vw) / 2) + calc(19vh * 0.69) * (-0.8660) - 9vh / 2); top: calc(calc(17vh + 19vh) + calc(19vh * 0.69) * (-0.5000) - 9vh / 2); }
+
+    .a5 { left: calc(calc(calc(100vw - 2 * 5vw) / 2) + 19vh * (-0.9848) - 9vh / 2); top: calc(calc(17vh + 19vh) + 19vh * (-0.1736) - 9vh / 2); }
+
+    /* cards can be swiped sideways */
+        .cards-track {
+            width: 100%;
+            bottom: 0;
+            overflow-x: auto;
+            overflow-y: hidden;
+            padding: 50px 2vw 60px;
+            scrollbar-width: none;
+        }
+
+    .cards-track::-webkit-scrollbar { display: none; }
+
+    .testimonial-cards { gap: 1.5vw; }
+
+    .t-card { width: 25vw; height: max(24vh, 210px); margin-left: 1vw; padding: 1.8vh 1.8vw; flex: 0 0 auto; }
+
+    .t-card h4 { font-size: max(11.4px, min(1.9vw, 19.5px)); }
+
+    .t-card p { font-size: max(9.6px, min(1.6vw, 16.4px)); line-height: 1.5; }
+
+    .card-user img { width: 5vw; height: 5vw; }
+
+    .card-user h5 { font-size: max(9.6px, min(1.6vw, 16.4px)); }
+
+    .card-user span { font-size: max(8.4px, min(1.4vw, 14.3px)); }
+
+    /* ---- CONTACT ---- */
+        .contact-left { padding: 3.5vw; }
+
+    .contact-left h1 { font-size: max(16.8px, min(2.8vw, 28.7px)); }
+
+    .contact-card { padding: 2.4vw; border-radius: 30px; }
+
+    .contact-card img { height: 22vh; }
+
+    .contact-item { font-size: max(9.0px, min(1.5vw, 15.4px)); padding: 1.2vh 1vw; }
+
+    .contact-right { padding: 3.5vw; }
+
+    .contact-nav { gap: 2.6vw; font-size: max(7.9px, min(min(1.65vw, 3.6vh), 16.9px)); margin-bottom: 4vh; }
+
+    .contact-right h2 { font-size: max(15.6px, min(2.6vw, 26.6px)); }
+
+    .contact-right input,
+        .contact-right textarea { font-size: max(12.0px, min(2.0vw, 20.5px)); padding: 1.4vh 1.6vw; }
+
+    .contact-right textarea { height: 24vh; }
+
+    .contact-right button { font-size: max(12.0px, min(2.0vw, 20.5px)); padding: 1.8vh; }
+
+    .topbar { margin-top: 3vh; }
+
+    .project-top { padding-top: 3vh; }
+
+    .project-cards { margin-top: 5vh; }
+
+    .testimonial-nav { margin-top: 3vh; }
+
+    .slider5 h1 { margin-top: 1vh; font-size: 9vh; }
+
+    .t-card { width: 24vw; height: 30vh; padding: 1vh 1.4vw; }
+
+    .t-card h4 { font-size: max(8.2px, min(1.7vw, 17.4px)); margin-bottom: 0.5vh; }
+
+    .t-card p { font-size: max(7.0px, min(1.45vw, 14.8px)); line-height: 1.35; }
+
+    .card-user img { width: 6vh; height: 6vh; }
+
+    .card-user h5 { font-size: max(7.2px, min(1.5vw, 15.4px)); }
+
+    .card-user span { font-size: max(6.2px, min(1.3vw, 13.3px)); }
+
+    .cards-track { padding-top: 34px; padding-bottom: 44px; }
+
+    .contact-left,
+        .contact-right { overflow-y: auto; }
 
 }
